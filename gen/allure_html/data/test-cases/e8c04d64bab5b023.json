@@ -1,0 +1,553 @@
+{
+  "uid" : "e8c04d64bab5b023",
+  "name" : "As Logged in user I can select account icon in header and can navigate to each option from popup",
+  "fullName" : "This test suite declines Account page functionality for Venus: As Logged in user I can select account icon in header and can navigate to each option from popup",
+  "historyId" : "3f71da1ac0384204de4da2fbebd00d04",
+  "time" : {
+    "start" : 1571072364668,
+    "stop" : 1571072537191,
+    "duration" : 172523
+  },
+  "description" : "Location - /Users/gleb/IdeaProjects/mw-automation-framework/features/regression/VN/VnAccountPages.feature:46",
+  "descriptionHtml" : "Location - /Users/gleb/IdeaProjects/mw-automation-framework/features/regression/VN/VnAccountPages.feature:46",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "cucumber.rb:14",
+    "time" : {
+      "start" : 1571072364668,
+      "stop" : 1571072364668,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cucumber.rb:22",
+    "time" : {
+      "start" : 1571072364668,
+      "stop" : 1571072364669,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cucumber.rb:3",
+    "time" : {
+      "start" : 1571072364669,
+      "stop" : 1571072364669,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Location - /Users/gleb/IdeaProjects/mw-automation-framework/features/regression/VN/VnAccountPages.feature:46",
+    "descriptionHtml" : "Location - /Users/gleb/IdeaProjects/mw-automation-framework/features/regression/VN/VnAccountPages.feature:46",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given user make login as \"user1\"",
+      "time" : {
+        "start" : 1571072364669,
+        "stop" : 1571072377207,
+        "duration" : 12538
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user is on home_page",
+      "time" : {
+        "start" : 1571072377208,
+        "stop" : 1571072378548,
+        "duration" : 1340
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then user click my_account_icon on header",
+      "time" : {
+        "start" : 1571072378548,
+        "stop" : 1571072384777,
+        "duration" : 6229
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user can see \"header_account_modal_content\" on header",
+      "time" : {
+        "start" : 1571072384777,
+        "stop" : 1571072402287,
+        "duration" : 17510
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then user click \"order_history\" on account_modal on header",
+      "time" : {
+        "start" : 1571072402287,
+        "stop" : 1571072407851,
+        "duration" : 5564
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user can see \"order_history_page_content\" on order_history_page",
+      "time" : {
+        "start" : 1571072407851,
+        "stop" : 1571072408765,
+        "duration" : 914
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user is on home_page",
+      "time" : {
+        "start" : 1571072408765,
+        "stop" : 1571072410820,
+        "duration" : 2055
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then user click my_account_icon on header",
+      "time" : {
+        "start" : 1571072410820,
+        "stop" : 1571072417354,
+        "duration" : 6534
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user can see \"header_account_modal_content\" on header",
+      "time" : {
+        "start" : 1571072417354,
+        "stop" : 1571072434935,
+        "duration" : 17581
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then user click \"mail_options\" on account_modal on header",
+      "time" : {
+        "start" : 1571072434935,
+        "stop" : 1571072440362,
+        "duration" : 5427
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user can see \"mail_options_page_content\" on mail_options_page",
+      "time" : {
+        "start" : 1571072440362,
+        "stop" : 1571072440434,
+        "duration" : 72
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user is on home_page",
+      "time" : {
+        "start" : 1571072440434,
+        "stop" : 1571072441899,
+        "duration" : 1465
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then user click my_account_icon on header",
+      "time" : {
+        "start" : 1571072441899,
+        "stop" : 1571072448119,
+        "duration" : 6220
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user can see \"header_account_modal_content\" on header",
+      "time" : {
+        "start" : 1571072448119,
+        "stop" : 1571072465630,
+        "duration" : 17511
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then user click \"wish_list\" on account_modal on header",
+      "time" : {
+        "start" : 1571072465630,
+        "stop" : 1571072474150,
+        "duration" : 8520
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user can see \"wish_list_page_content\" on wish_list_page",
+      "time" : {
+        "start" : 1571072474150,
+        "stop" : 1571072474356,
+        "duration" : 206
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user is on home_page",
+      "time" : {
+        "start" : 1571072474357,
+        "stop" : 1571072475756,
+        "duration" : 1399
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then user click my_account_icon on header",
+      "time" : {
+        "start" : 1571072475756,
+        "stop" : 1571072481130,
+        "duration" : 5374
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user can see \"header_account_modal_content\" on header",
+      "time" : {
+        "start" : 1571072481130,
+        "stop" : 1571072498646,
+        "duration" : 17516
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then user click \"account_info\" on account_modal on header",
+      "time" : {
+        "start" : 1571072498646,
+        "stop" : 1571072503738,
+        "duration" : 5092
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user can see \"account_information_page_content\" on account_information_page",
+      "time" : {
+        "start" : 1571072503738,
+        "stop" : 1571072504784,
+        "duration" : 1046
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user is on home_page",
+      "time" : {
+        "start" : 1571072504784,
+        "stop" : 1571072506069,
+        "duration" : 1285
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then user click my_account_icon on header",
+      "time" : {
+        "start" : 1571072506069,
+        "stop" : 1571072511870,
+        "duration" : 5801
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user can see \"header_account_modal_content\" on header",
+      "time" : {
+        "start" : 1571072511870,
+        "stop" : 1571072529498,
+        "duration" : 17628
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then user click \"log_out\" on account_modal on header",
+      "time" : {
+        "start" : 1571072529498,
+        "stop" : 1571072536514,
+        "duration" : 7016
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then user can see \"sign_in_page_content\" on sign_in_page",
+      "time" : {
+        "start" : 1571072536514,
+        "stop" : 1571072536974,
+        "duration" : 460
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 26,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "hooks.rb:4",
+    "time" : {
+      "start" : 1571072536974,
+      "stop" : 1571072536974,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cucumber.rb:7",
+    "time" : {
+      "start" : 1571072536974,
+      "stop" : 1571072536974,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cucumber.rb:10",
+    "time" : {
+      "start" : 1571072536975,
+      "stop" : 1571072537190,
+      "duration" : 215
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "cucumber"
+  }, {
+    "name" : "feature",
+    "value" : "This test suite declines Account page functionality for Venus"
+  }, {
+    "name" : "package",
+    "value" : "This test suite declines Account page functionality for Venus"
+  }, {
+    "name" : "suite",
+    "value" : "This test suite declines Account page functionality for Venus"
+  }, {
+    "name" : "story",
+    "value" : "As Logged in user I can select account icon in header and can navigate to each option from popup"
+  }, {
+    "name" : "testClass",
+    "value" : "As Logged in user I can select account icon in header and can navigate to each option from popup"
+  }, {
+    "name" : "thread",
+    "value" : "70238523818060"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Gleb.local"
+  }, {
+    "name" : "language",
+    "value" : "ruby"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e8c04d64bab5b023.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,360 @@
+{
+  "uid" : "96116a6bc0ad20e",
+  "name" : "As guest user I want proceed to checkout using checkout as guest button",
+  "fullName" : "This test suite declines My Bag Page functionality for Venus: As guest user I want proceed to checkout using checkout as guest button",
+  "historyId" : "f996544ce128ad72f9bbb06403193df7",
+  "time" : {
+    "start" : 1571075273848,
+    "stop" : 1571075313051,
+    "duration" : 39203
+  },
+  "description" : "Location - /Users/gleb/IdeaProjects/mw-automation-framework/features/regression/VN/VnCartPage.feature:99",
+  "descriptionHtml" : "Location - /Users/gleb/IdeaProjects/mw-automation-framework/features/regression/VN/VnCartPage.feature:99",
+  "status" : "broken",
+  "statusMessage" : "Unable to find visible xpath \"//ul[@role='listbox']/li[@data-value='2']\"",
+  "statusTrace" : "/Users/gleb/.rvm/gems/ruby-2.6.4/gems/capybara-3.29.0/lib/capybara/node/finders.rb:296:in `block in synced_resolve'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/capybara-3.29.0/lib/capybara/node/base.rb:83:in `synchronize'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/capybara-3.29.0/lib/capybara/node/finders.rb:287:in `synced_resolve'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/capybara-3.29.0/lib/capybara/node/finders.rb:52:in `find'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/capybara-3.29.0/lib/capybara/session.rb:749:in `block (2 levels) in <class:Session>'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/capybara-3.29.0/lib/capybara/dsl.rb:51:in `block (2 levels) in <module:DSL>'\n/Users/gleb/IdeaProjects/mw-automation-framework/features/pages/VN/VN_product_page.rb:43:in `set_item_qty_with_value'\n/Users/gleb/IdeaProjects/mw-automation-framework/features/step_definitions/product_page_steps.rb:233:in `/^user set \"([^\"]*)\" with value \"([^\"]*)\" on product_page$/'\n/Users/gleb/IdeaProjects/mw-automation-framework/features/regression/VN/VnCartPage.feature:104:in `Then user set \"product_qty\" with value \"2\" on product_page'",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "cucumber.rb:14",
+    "time" : {
+      "start" : 1571075273849,
+      "stop" : 1571075273849,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cucumber.rb:22",
+    "time" : {
+      "start" : 1571075273849,
+      "stop" : 1571075273849,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cucumber.rb:3",
+    "time" : {
+      "start" : 1571075273849,
+      "stop" : 1571075273849,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Location - /Users/gleb/IdeaProjects/mw-automation-framework/features/regression/VN/VnCartPage.feature:99",
+    "descriptionHtml" : "Location - /Users/gleb/IdeaProjects/mw-automation-framework/features/regression/VN/VnCartPage.feature:99",
+    "status" : "broken",
+    "statusMessage" : "Unable to find visible xpath \"//ul[@role='listbox']/li[@data-value='2']\"",
+    "statusTrace" : "/Users/gleb/.rvm/gems/ruby-2.6.4/gems/capybara-3.29.0/lib/capybara/node/finders.rb:296:in `block in synced_resolve'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/capybara-3.29.0/lib/capybara/node/base.rb:83:in `synchronize'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/capybara-3.29.0/lib/capybara/node/finders.rb:287:in `synced_resolve'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/capybara-3.29.0/lib/capybara/node/finders.rb:52:in `find'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/capybara-3.29.0/lib/capybara/session.rb:749:in `block (2 levels) in <class:Session>'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/capybara-3.29.0/lib/capybara/dsl.rb:51:in `block (2 levels) in <module:DSL>'\n/Users/gleb/IdeaProjects/mw-automation-framework/features/pages/VN/VN_product_page.rb:43:in `set_item_qty_with_value'\n/Users/gleb/IdeaProjects/mw-automation-framework/features/step_definitions/product_page_steps.rb:233:in `/^user set \"([^\"]*)\" with value \"([^\"]*)\" on product_page$/'\n/Users/gleb/IdeaProjects/mw-automation-framework/features/regression/VN/VnCartPage.feature:104:in `Then user set \"product_qty\" with value \"2\" on product_page'",
+    "steps" : [ {
+      "name" : "Given user is on \"item_1\" product_page",
+      "time" : {
+        "start" : 1571075273849,
+        "stop" : 1571075279695,
+        "duration" : 5846
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user scroll page",
+      "time" : {
+        "start" : 1571075279695,
+        "stop" : 1571075286360,
+        "duration" : 6665
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user can see \"product_page_content\" on product_page",
+      "time" : {
+        "start" : 1571075286360,
+        "stop" : 1571075287118,
+        "duration" : 758
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When user click \"available_size_button\" on product_page",
+      "time" : {
+        "start" : 1571075287118,
+        "stop" : 1571075299395,
+        "duration" : 12277
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then user set \"product_qty\" with value \"2\" on product_page",
+      "time" : {
+        "start" : 1571075299395,
+        "stop" : 1571075312556,
+        "duration" : 13161
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user remember \"test_item_1\" product parameters on product_page",
+      "time" : {
+        "start" : 1571075312556,
+        "stop" : 1571075312556,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user click add_to_bag_button on product_page",
+      "time" : {
+        "start" : 1571075312556,
+        "stop" : 1571075312557,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then user click cart_icon on header",
+      "time" : {
+        "start" : 1571075312557,
+        "stop" : 1571075312557,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user can see \"cart_page_content\" on cart_page",
+      "time" : {
+        "start" : 1571075312557,
+        "stop" : 1571075312557,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user can see \"test_item_1_hash\" on cart_page",
+      "time" : {
+        "start" : 1571075312557,
+        "stop" : 1571075312557,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user fill offer_code_field with offer_code on cart_page",
+      "time" : {
+        "start" : 1571075312557,
+        "stop" : 1571075312558,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user click \"apply_button\" on cart_page",
+      "time" : {
+        "start" : 1571075312558,
+        "stop" : 1571075312558,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user can see applied_offer_code on cart_page",
+      "time" : {
+        "start" : 1571075312558,
+        "stop" : 1571075312559,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 13,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "hooks.rb:4",
+    "time" : {
+      "start" : 1571075312559,
+      "stop" : 1571075312560,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cucumber.rb:7",
+    "time" : {
+      "start" : 1571075312560,
+      "stop" : 1571075312560,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cucumber.rb:10",
+    "time" : {
+      "start" : 1571075312560,
+      "stop" : 1571075313050,
+      "duration" : 490
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "cucumber"
+  }, {
+    "name" : "feature",
+    "value" : "This test suite declines My Bag Page functionality for Venus"
+  }, {
+    "name" : "package",
+    "value" : "This test suite declines My Bag Page functionality for Venus"
+  }, {
+    "name" : "suite",
+    "value" : "This test suite declines My Bag Page functionality for Venus"
+  }, {
+    "name" : "story",
+    "value" : "As guest user I want proceed to checkout using checkout as guest button"
+  }, {
+    "name" : "testClass",
+    "value" : "As guest user I want proceed to checkout using checkout as guest button"
+  }, {
+    "name" : "thread",
+    "value" : "70142390362180"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Gleb.local"
+  }, {
+    "name" : "language",
+    "value" : "ruby"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "96116a6bc0ad20e.json",
+  "parameterValues" : [ ]
+}

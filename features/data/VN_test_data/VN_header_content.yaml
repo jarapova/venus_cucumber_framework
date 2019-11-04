@@ -1,0 +1,17 @@
+carousel_elements:
+  Clothing: "Clothing"
+  Swimwear: "Swimwear"
+  Lingerie: "Lingerie"
+  PlusSize: "Plus size"
+  WhatsNew: "What's new"
+  Trends: "Trends"
+  PreOrder: "Pre-order"
+  Sale: "Sale"
+
+account_options_modal_elements:
+  account_options_modal: "(//div[@role='document']/ul[@role='menu'])[2]"
+  account_info: "(//div[@role='document']/ul[@role='menu'])[2]//a[text()='Account Info']"
+  order_history: "(//div[@role='document']/ul[@role='menu'])[2]//a[text()='Order History']"
+  mail_options: "(//div[@role='document']/ul[@role='menu'])[2]//a[text()='Mail Options']"
+  wish_list: "(//div[@role='document']/ul[@role='menu'])[2]//a[text()='Wish List']"
+  log_out: "(//div[@role='document']/ul[@role='menu'])[2]//a[text()='Log Out']"

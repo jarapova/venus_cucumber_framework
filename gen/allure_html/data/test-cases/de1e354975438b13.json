@@ -1,0 +1,456 @@
+{
+  "uid" : "de1e354975438b13",
+  "name" : "As user I want see colors on PDP and choose available color",
+  "fullName" : "This test suite declines Product Page functionality for Venus: As user I want see colors on PDP and choose available color",
+  "historyId" : "c90286fc30ea388ee36d7118ef9405f7",
+  "time" : {
+    "start" : 1571073836808,
+    "stop" : 1571073881435,
+    "duration" : 44627
+  },
+  "description" : "Location - /Users/gleb/IdeaProjects/mw-automation-framework/features/regression/VN/VnProductPage.feature:59",
+  "descriptionHtml" : "Location - /Users/gleb/IdeaProjects/mw-automation-framework/features/regression/VN/VnProductPage.feature:59",
+  "status" : "failed",
+  "statusMessage" : "\nexpected: \"BLACK(BK)\"\n     got: \"DARK WASH(DW)\"\n\n(compared using ==)\n",
+  "statusTrace" : "/Users/gleb/.rvm/gems/ruby-2.6.4/gems/rspec-support-3.8.2/lib/rspec/support.rb:97:in `block in <module:Support>'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/rspec-support-3.8.2/lib/rspec/support.rb:106:in `notify_failure'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/rspec-expectations-3.8.4/lib/rspec/expectations/fail_with.rb:35:in `fail_with'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/rspec-expectations-3.8.4/lib/rspec/expectations/handler.rb:38:in `handle_failure'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/rspec-expectations-3.8.4/lib/rspec/expectations/handler.rb:50:in `block in handle_matcher'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/rspec-expectations-3.8.4/lib/rspec/expectations/handler.rb:27:in `with_matcher'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/rspec-expectations-3.8.4/lib/rspec/expectations/handler.rb:48:in `handle_matcher'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/rspec-expectations-3.8.4/lib/rspec/expectations/expectation_target.rb:65:in `to'\n/Users/gleb/IdeaProjects/mw-automation-framework/features/pages/VN/VN_product_page.rb:63:in `check_element_with_value_on_product_page'\n/Users/gleb/IdeaProjects/mw-automation-framework/features/step_definitions/product_page_steps.rb:364:in `/^user can see \"([^\"]*)\" with value \"([^\"]*)\" on product_page$/'\n/Users/gleb/IdeaProjects/mw-automation-framework/features/regression/VN/VnProductPage.feature:67:in `Then user can see \"item_color\" with value \"BLACK(BK)\" on product_page'",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "cucumber.rb:14",
+    "time" : {
+      "start" : 1571073836809,
+      "stop" : 1571073836809,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cucumber.rb:22",
+    "time" : {
+      "start" : 1571073836809,
+      "stop" : 1571073836810,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cucumber.rb:3",
+    "time" : {
+      "start" : 1571073836810,
+      "stop" : 1571073836810,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Location - /Users/gleb/IdeaProjects/mw-automation-framework/features/regression/VN/VnProductPage.feature:59",
+    "descriptionHtml" : "Location - /Users/gleb/IdeaProjects/mw-automation-framework/features/regression/VN/VnProductPage.feature:59",
+    "status" : "failed",
+    "statusMessage" : "\nexpected: \"BLACK(BK)\"\n     got: \"DARK WASH(DW)\"\n\n(compared using ==)\n",
+    "statusTrace" : "/Users/gleb/.rvm/gems/ruby-2.6.4/gems/rspec-support-3.8.2/lib/rspec/support.rb:97:in `block in <module:Support>'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/rspec-support-3.8.2/lib/rspec/support.rb:106:in `notify_failure'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/rspec-expectations-3.8.4/lib/rspec/expectations/fail_with.rb:35:in `fail_with'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/rspec-expectations-3.8.4/lib/rspec/expectations/handler.rb:38:in `handle_failure'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/rspec-expectations-3.8.4/lib/rspec/expectations/handler.rb:50:in `block in handle_matcher'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/rspec-expectations-3.8.4/lib/rspec/expectations/handler.rb:27:in `with_matcher'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/rspec-expectations-3.8.4/lib/rspec/expectations/handler.rb:48:in `handle_matcher'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/rspec-expectations-3.8.4/lib/rspec/expectations/expectation_target.rb:65:in `to'\n/Users/gleb/IdeaProjects/mw-automation-framework/features/pages/VN/VN_product_page.rb:63:in `check_element_with_value_on_product_page'\n/Users/gleb/IdeaProjects/mw-automation-framework/features/step_definitions/product_page_steps.rb:364:in `/^user can see \"([^\"]*)\" with value \"([^\"]*)\" on product_page$/'\n/Users/gleb/IdeaProjects/mw-automation-framework/features/regression/VN/VnProductPage.feature:67:in `Then user can see \"item_color\" with value \"BLACK(BK)\" on product_page'",
+    "steps" : [ {
+      "name" : "Given user is on \"item_1\" product_page",
+      "time" : {
+        "start" : 1571073836810,
+        "stop" : 1571073838165,
+        "duration" : 1355
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user scroll page",
+      "time" : {
+        "start" : 1571073838165,
+        "stop" : 1571073843664,
+        "duration" : 5499
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user can see \"product_page_content\" on product_page",
+      "time" : {
+        "start" : 1571073843664,
+        "stop" : 1571073844443,
+        "duration" : 779
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then user can see \"product_сolors\" on product_page",
+      "time" : {
+        "start" : 1571073844443,
+        "stop" : 1571073856452,
+        "duration" : 12009
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then user can see \"available_product_сolors\" on product_page",
+      "time" : {
+        "start" : 1571073856452,
+        "stop" : 1571073868479,
+        "duration" : 12027
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When user click \"color_button_black\" on product_page",
+      "time" : {
+        "start" : 1571073868479,
+        "stop" : 1571073880659,
+        "duration" : 12180
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then user can see \"item_color\" with value \"BLACK(BK)\" on product_page",
+      "time" : {
+        "start" : 1571073880659,
+        "stop" : 1571073880704,
+        "duration" : 45
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When user click \"color_button_dark_wash\" on product_page",
+      "time" : {
+        "start" : 1571073880704,
+        "stop" : 1571073880705,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then user can see \"item_color\" with value \"DARK WASH(DW)\" on product_page",
+      "time" : {
+        "start" : 1571073880705,
+        "stop" : 1571073880705,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When user click \"color_button_light_wash\" on product_page",
+      "time" : {
+        "start" : 1571073880705,
+        "stop" : 1571073880705,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then user can see \"item_color\" with value \"LIGHT WASH(LW)\" on product_page",
+      "time" : {
+        "start" : 1571073880705,
+        "stop" : 1571073880706,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When user click \"color_button_medium_wash\" on product_page",
+      "time" : {
+        "start" : 1571073880706,
+        "stop" : 1571073880706,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then user can see \"item_color\" with value \"MEDIUM WASH(MW)\" on product_page",
+      "time" : {
+        "start" : 1571073880706,
+        "stop" : 1571073880706,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When user click \"color_button_white\" on product_page",
+      "time" : {
+        "start" : 1571073880706,
+        "stop" : 1571073880707,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then user can see \"item_color\" with value \"WHITE(WH)\" on product_page",
+      "time" : {
+        "start" : 1571073880707,
+        "stop" : 1571073880707,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When user click \"color_button_olmu\" on product_page",
+      "time" : {
+        "start" : 1571073880707,
+        "stop" : 1571073880707,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then user can see \"item_color\" with value \"OLIVE MULTI(OLMU)\" on product_page",
+      "time" : {
+        "start" : 1571073880707,
+        "stop" : 1571073880708,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When user click \"color_button_black\" on product_page",
+      "time" : {
+        "start" : 1571073880708,
+        "stop" : 1571073880709,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then user can see \"item_color\" with value \"BLACK(BK)\" on product_page",
+      "time" : {
+        "start" : 1571073880709,
+        "stop" : 1571073880709,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "edd8dd6a53b64a9e",
+      "name" : "screenshot on fail",
+      "source" : "edd8dd6a53b64a9e.png",
+      "type" : "image/png",
+      "size" : 181917
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 19,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "hooks.rb:4",
+    "time" : {
+      "start" : 1571073880709,
+      "stop" : 1571073881251,
+      "duration" : 542
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cucumber.rb:7",
+    "time" : {
+      "start" : 1571073881251,
+      "stop" : 1571073881252,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cucumber.rb:10",
+    "time" : {
+      "start" : 1571073881252,
+      "stop" : 1571073881435,
+      "duration" : 183
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "cucumber"
+  }, {
+    "name" : "feature",
+    "value" : "This test suite declines Product Page functionality for Venus"
+  }, {
+    "name" : "package",
+    "value" : "This test suite declines Product Page functionality for Venus"
+  }, {
+    "name" : "suite",
+    "value" : "This test suite declines Product Page functionality for Venus"
+  }, {
+    "name" : "story",
+    "value" : "As user I want see colors on PDP and choose available color"
+  }, {
+    "name" : "testClass",
+    "value" : "As user I want see colors on PDP and choose available color"
+  }, {
+    "name" : "thread",
+    "value" : "70238523818060"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Gleb.local"
+  }, {
+    "name" : "language",
+    "value" : "ruby"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "de1e354975438b13.json",
+  "parameterValues" : [ ]
+}

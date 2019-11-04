@@ -1,0 +1,18 @@
+current directory: /Users/gleb/IdeaProjects/mw-automation-framework/vendor/bundle/ruby/2.6.0/gems/jaro_winkler-1.5.3/ext/jaro_winkler
+/Users/gleb/.rvm/rubies/ruby-2.6.4/bin/ruby -I /Users/gleb/.rvm/rubies/ruby-2.6.4/lib/ruby/site_ruby/2.6.0 -r ./siteconf20190925-97237-18zn67r.rb extconf.rb
+creating Makefile
+
+current directory: /Users/gleb/IdeaProjects/mw-automation-framework/vendor/bundle/ruby/2.6.0/gems/jaro_winkler-1.5.3/ext/jaro_winkler
+make "DESTDIR=" clean
+
+current directory: /Users/gleb/IdeaProjects/mw-automation-framework/vendor/bundle/ruby/2.6.0/gems/jaro_winkler-1.5.3/ext/jaro_winkler
+make "DESTDIR="
+compiling adj_matrix.c
+compiling codepoints.c
+compiling jaro.c
+compiling jaro_winkler.c
+linking shared-object jaro_winkler/jaro_winkler_ext.bundle
+
+current directory: /Users/gleb/IdeaProjects/mw-automation-framework/vendor/bundle/ruby/2.6.0/gems/jaro_winkler-1.5.3/ext/jaro_winkler
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 jaro_winkler_ext.bundle ./.gem.20190925-97237-pe6smh/jaro_winkler

@@ -1,0 +1,261 @@
+{
+  "uid" : "2cc976d5fd20cb8f",
+  "name" : "As user I want see social icons in footer",
+  "fullName" : "This test suite declines footer functionality for Venus: As user I want see social icons in footer",
+  "historyId" : "5572389bad4b64a2015d50f5c4ef7f4f",
+  "time" : {
+    "start" : 1571072936464,
+    "stop" : 1571072950968,
+    "duration" : 14504
+  },
+  "description" : "Location - /Users/gleb/IdeaProjects/mw-automation-framework/features/regression/VN/VnFooter.feature:26",
+  "descriptionHtml" : "Location - /Users/gleb/IdeaProjects/mw-automation-framework/features/regression/VN/VnFooter.feature:26",
+  "status" : "broken",
+  "statusMessage" : "invalid selector: Unable to locate an element with the xpath expression  because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.\n  (Session info: chrome=77.0.3865.90)",
+  "statusTrace" : "0   chromedriver                        0x0000000104800f09 chromedriver + 3694345\n1   chromedriver                        0x000000010478dfd3 chromedriver + 3223507\n2   chromedriver                        0x000000010452d58f chromedriver + 730511\n3   chromedriver                        0x0000000104530425 chromedriver + 742437\n4   chromedriver                        0x0000000104530239 chromedriver + 741945\n5   chromedriver                        0x00000001045304b7 chromedriver + 742583\n6   chromedriver                        0x000000010449e071 chromedriver + 143473\n7   chromedriver                        0x00000001044c74d1 chromedriver + 312529\n8   chromedriver                        0x00000001044ba0bd chromedriver + 258237\n9   chromedriver                        0x00000001044c5711 chromedriver + 304913\n10  chromedriver                        0x00000001044ba383 chromedriver + 258947\n11  chromedriver                        0x000000010449523d chromedriver + 107069\n12  chromedriver                        0x00000001044961d5 chromedriver + 111061\n13  chromedriver                        0x00000001047bc07f chromedriver + 3412095\n14  chromedriver                        0x00000001047c8ced chromedriver + 3464429\n15  chromedriver                        0x00000001047c8a78 chromedriver + 3463800\n16  chromedriver                        0x000000010479b959 chromedriver + 3279193\n17  chromedriver                        0x00000001047c9548 chromedriver + 3466568\n18  chromedriver                        0x00000001047b01b7 chromedriver + 3363255\n19  chromedriver                        0x00000001047e7474 chromedriver + 3589236\n20  chromedriver                        0x0000000104806ce7 chromedriver + 3718375\n21  libsystem_pthread.dylib             0x00007fff6206c2eb _pthread_body + 126\n22  libsystem_pthread.dylib             0x00007fff6206f249 _pthread_start + 66\n23  libsystem_pthread.dylib             0x00007fff6206b40d thread_start + 13\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/selenium-webdriver-3.142.5/lib/selenium/webdriver/remote/response.rb:72:in `assert_ok'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/selenium-webdriver-3.142.5/lib/selenium/webdriver/remote/response.rb:34:in `initialize'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/selenium-webdriver-3.142.5/lib/selenium/webdriver/remote/http/common.rb:88:in `new'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/selenium-webdriver-3.142.5/lib/selenium/webdriver/remote/http/common.rb:88:in `create_response'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/selenium-webdriver-3.142.5/lib/selenium/webdriver/remote/http/default.rb:114:in `request'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/selenium-webdriver-3.142.5/lib/selenium/webdriver/remote/http/common.rb:64:in `call'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/selenium-webdriver-3.142.5/lib/selenium/webdriver/remote/bridge.rb:167:in `execute'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/selenium-webdriver-3.142.5/lib/selenium/webdriver/remote/w3c/bridge.rb:567:in `execute'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/selenium-webdriver-3.142.5/lib/selenium/webdriver/remote/w3c/bridge.rb:558:in `find_elements_by'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/selenium-webdriver-3.142.5/lib/selenium/webdriver/common/search_context.rb:80:in `find_elements'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/capybara-3.29.0/lib/capybara/selenium/extensions/find.rb:17:in `find_by'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/capybara-3.29.0/lib/capybara/selenium/extensions/find.rb:7:in `find_xpath'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/capybara-3.29.0/lib/capybara/node/base.rb:116:in `find_xpath'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/capybara-3.29.0/lib/capybara/queries/selector_query.rb:240:in `find_nodes_by_selector_format'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/capybara-3.29.0/lib/capybara/queries/selector_query.rb:150:in `block in resolve_for'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/capybara-3.29.0/lib/capybara/node/base.rb:77:in `synchronize'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/capybara-3.29.0/lib/capybara/queries/selector_query.rb:149:in `resolve_for'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/capybara-3.29.0/lib/capybara/node/matchers.rb:832:in `block in _verify_selector_result'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/capybara-3.29.0/lib/capybara/node/base.rb:83:in `synchronize'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/capybara-3.29.0/lib/capybara/node/matchers.rb:831:in `_verify_selector_result'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/capybara-3.29.0/lib/capybara/node/matchers.rb:109:in `assert_selector'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/capybara-3.29.0/lib/capybara/session.rb:749:in `block (2 levels) in <class:Session>'\n/Users/gleb/IdeaProjects/mw-automation-framework/features/pages/VN/VN_footer_modal_page.rb:19:in `expect_content_footer'\n/Users/gleb/IdeaProjects/mw-automation-framework/features/step_definitions/footer_steps.rb:106:in `/^user can see \"([^\"]*)\" on footer$/'\n/Users/gleb/IdeaProjects/mw-automation-framework/features/regression/VN/VnFooter.feature:33:in `And user can see \"live_chat_social_icon\" on footer'",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "cucumber.rb:14",
+    "time" : {
+      "start" : 1571072936467,
+      "stop" : 1571072936467,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cucumber.rb:22",
+    "time" : {
+      "start" : 1571072936468,
+      "stop" : 1571072936468,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cucumber.rb:3",
+    "time" : {
+      "start" : 1571072936468,
+      "stop" : 1571072936470,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Location - /Users/gleb/IdeaProjects/mw-automation-framework/features/regression/VN/VnFooter.feature:26",
+    "descriptionHtml" : "Location - /Users/gleb/IdeaProjects/mw-automation-framework/features/regression/VN/VnFooter.feature:26",
+    "status" : "broken",
+    "statusMessage" : "invalid selector: Unable to locate an element with the xpath expression  because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.\n  (Session info: chrome=77.0.3865.90)",
+    "statusTrace" : "0   chromedriver                        0x0000000104800f09 chromedriver + 3694345\n1   chromedriver                        0x000000010478dfd3 chromedriver + 3223507\n2   chromedriver                        0x000000010452d58f chromedriver + 730511\n3   chromedriver                        0x0000000104530425 chromedriver + 742437\n4   chromedriver                        0x0000000104530239 chromedriver + 741945\n5   chromedriver                        0x00000001045304b7 chromedriver + 742583\n6   chromedriver                        0x000000010449e071 chromedriver + 143473\n7   chromedriver                        0x00000001044c74d1 chromedriver + 312529\n8   chromedriver                        0x00000001044ba0bd chromedriver + 258237\n9   chromedriver                        0x00000001044c5711 chromedriver + 304913\n10  chromedriver                        0x00000001044ba383 chromedriver + 258947\n11  chromedriver                        0x000000010449523d chromedriver + 107069\n12  chromedriver                        0x00000001044961d5 chromedriver + 111061\n13  chromedriver                        0x00000001047bc07f chromedriver + 3412095\n14  chromedriver                        0x00000001047c8ced chromedriver + 3464429\n15  chromedriver                        0x00000001047c8a78 chromedriver + 3463800\n16  chromedriver                        0x000000010479b959 chromedriver + 3279193\n17  chromedriver                        0x00000001047c9548 chromedriver + 3466568\n18  chromedriver                        0x00000001047b01b7 chromedriver + 3363255\n19  chromedriver                        0x00000001047e7474 chromedriver + 3589236\n20  chromedriver                        0x0000000104806ce7 chromedriver + 3718375\n21  libsystem_pthread.dylib             0x00007fff6206c2eb _pthread_body + 126\n22  libsystem_pthread.dylib             0x00007fff6206f249 _pthread_start + 66\n23  libsystem_pthread.dylib             0x00007fff6206b40d thread_start + 13\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/selenium-webdriver-3.142.5/lib/selenium/webdriver/remote/response.rb:72:in `assert_ok'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/selenium-webdriver-3.142.5/lib/selenium/webdriver/remote/response.rb:34:in `initialize'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/selenium-webdriver-3.142.5/lib/selenium/webdriver/remote/http/common.rb:88:in `new'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/selenium-webdriver-3.142.5/lib/selenium/webdriver/remote/http/common.rb:88:in `create_response'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/selenium-webdriver-3.142.5/lib/selenium/webdriver/remote/http/default.rb:114:in `request'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/selenium-webdriver-3.142.5/lib/selenium/webdriver/remote/http/common.rb:64:in `call'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/selenium-webdriver-3.142.5/lib/selenium/webdriver/remote/bridge.rb:167:in `execute'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/selenium-webdriver-3.142.5/lib/selenium/webdriver/remote/w3c/bridge.rb:567:in `execute'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/selenium-webdriver-3.142.5/lib/selenium/webdriver/remote/w3c/bridge.rb:558:in `find_elements_by'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/selenium-webdriver-3.142.5/lib/selenium/webdriver/common/search_context.rb:80:in `find_elements'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/capybara-3.29.0/lib/capybara/selenium/extensions/find.rb:17:in `find_by'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/capybara-3.29.0/lib/capybara/selenium/extensions/find.rb:7:in `find_xpath'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/capybara-3.29.0/lib/capybara/node/base.rb:116:in `find_xpath'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/capybara-3.29.0/lib/capybara/queries/selector_query.rb:240:in `find_nodes_by_selector_format'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/capybara-3.29.0/lib/capybara/queries/selector_query.rb:150:in `block in resolve_for'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/capybara-3.29.0/lib/capybara/node/base.rb:77:in `synchronize'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/capybara-3.29.0/lib/capybara/queries/selector_query.rb:149:in `resolve_for'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/capybara-3.29.0/lib/capybara/node/matchers.rb:832:in `block in _verify_selector_result'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/capybara-3.29.0/lib/capybara/node/base.rb:83:in `synchronize'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/capybara-3.29.0/lib/capybara/node/matchers.rb:831:in `_verify_selector_result'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/capybara-3.29.0/lib/capybara/node/matchers.rb:109:in `assert_selector'\n/Users/gleb/.rvm/gems/ruby-2.6.4/gems/capybara-3.29.0/lib/capybara/session.rb:749:in `block (2 levels) in <class:Session>'\n/Users/gleb/IdeaProjects/mw-automation-framework/features/pages/VN/VN_footer_modal_page.rb:19:in `expect_content_footer'\n/Users/gleb/IdeaProjects/mw-automation-framework/features/step_definitions/footer_steps.rb:106:in `/^user can see \"([^\"]*)\" on footer$/'\n/Users/gleb/IdeaProjects/mw-automation-framework/features/regression/VN/VnFooter.feature:33:in `And user can see \"live_chat_social_icon\" on footer'",
+    "steps" : [ {
+      "name" : "Given user is on home_page",
+      "time" : {
+        "start" : 1571072936471,
+        "stop" : 1571072937417,
+        "duration" : 946
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When user can see \"instagram_social_icon\" on footer",
+      "time" : {
+        "start" : 1571072937417,
+        "stop" : 1571072937599,
+        "duration" : 182
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user can see \"facebook_social_icon\" on footer",
+      "time" : {
+        "start" : 1571072937599,
+        "stop" : 1571072937702,
+        "duration" : 103
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user can see \"twitter_social_icon\" on footer",
+      "time" : {
+        "start" : 1571072937702,
+        "stop" : 1571072937805,
+        "duration" : 103
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user can see \"pinterest_social_icon\" on footer",
+      "time" : {
+        "start" : 1571072937805,
+        "stop" : 1571072937830,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user can see \"live_chat_social_icon\" on footer",
+      "time" : {
+        "start" : 1571072937830,
+        "stop" : 1571072949843,
+        "duration" : 12013
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "43f22dfa873efff4",
+      "name" : "screenshot on fail",
+      "source" : "43f22dfa873efff4.png",
+      "type" : "image/png",
+      "size" : 1020224
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "hooks.rb:4",
+    "time" : {
+      "start" : 1571072949843,
+      "stop" : 1571072950729,
+      "duration" : 886
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cucumber.rb:7",
+    "time" : {
+      "start" : 1571072950729,
+      "stop" : 1571072950729,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cucumber.rb:10",
+    "time" : {
+      "start" : 1571072950729,
+      "stop" : 1571072950967,
+      "duration" : 238
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "cucumber"
+  }, {
+    "name" : "feature",
+    "value" : "This test suite declines footer functionality for Venus"
+  }, {
+    "name" : "package",
+    "value" : "This test suite declines footer functionality for Venus"
+  }, {
+    "name" : "suite",
+    "value" : "This test suite declines footer functionality for Venus"
+  }, {
+    "name" : "story",
+    "value" : "As user I want see social icons in footer"
+  }, {
+    "name" : "testClass",
+    "value" : "As user I want see social icons in footer"
+  }, {
+    "name" : "thread",
+    "value" : "70238523818060"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Gleb.local"
+  }, {
+    "name" : "language",
+    "value" : "ruby"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2cc976d5fd20cb8f.json",
+  "parameterValues" : [ ]
+}

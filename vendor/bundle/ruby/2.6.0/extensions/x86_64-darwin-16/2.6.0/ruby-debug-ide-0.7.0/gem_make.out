@@ -1,0 +1,7 @@
+current directory: /Users/gleb/IdeaProjects/mw-automation-framework/vendor/bundle/ruby/2.6.0/gems/ruby-debug-ide-0.7.0/ext
+/Users/gleb/.rvm/rubies/ruby-2.6.4/bin/ruby mkrf_conf.rb
+Installing base gem
+Building native extensions. This could take a while...
+
+current directory: /Users/gleb/IdeaProjects/mw-automation-framework/vendor/bundle/ruby/2.6.0/gems/ruby-debug-ide-0.7.0/ext
+/Users/gleb/.rvm/rubies/ruby-2.6.4/bin/ruby -rrubygems /Users/gleb/IdeaProjects/mw-automation-framework/vendor/bundle/ruby/2.6.0/gems/rake-12.3.3/exe/rake RUBYARCHDIR\=/Users/gleb/IdeaProjects/mw-automation-framework/vendor/bundle/ruby/2.6.0/extensions/x86_64-darwin-16/2.6.0/ruby-debug-ide-0.7.0 RUBYLIBDIR\=/Users/gleb/IdeaProjects/mw-automation-framework/vendor/bundle/ruby/2.6.0/extensions/x86_64-darwin-16/2.6.0/ruby-debug-ide-0.7.0

@@ -1,0 +1,6 @@
+content_locators:
+  phone1: "//a[text()='1-904-997-4000']"
+content_text:
+#  line_1: 'Account Specialists are available 24 hours a day, 7 days a week. '
+  line_1: 'Account Specialists are available by phone 7:00AM EST - 1:00AM EST. '
+  line_2: 'You can easily fax in your order. Please send us the following information:'

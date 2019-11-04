@@ -1,0 +1,21 @@
+lingerie:
+  bras: "Bras"
+  strapless_backless_bras: 'Strapless & backless bras'
+  bralettes: 'Bralettes'
+  push_up_bras: 'Push up bras'
+  perfect_coverage_bras: 'Perfect coverage bras'
+  sports_bras: 'Sports bras'
+  panties: 'Panties'
+  cheeky_panties: 'Cheeky panties'
+  hipster_panties: 'Hipster panties'
+  bikini_panties: 'Bikini panties'
+  thong_panties: 'Thong panties'
+  sexy_lingerie: 'Sexy lingerie'
+  bodysuits: 'Bodysuits'
+  shapewear: 'Shapewear'
+  sale: 'Sale'
+  clearance: 'Clearance'
+swimwear:
+  tankini_tops: 'Tankini tops'
+
+

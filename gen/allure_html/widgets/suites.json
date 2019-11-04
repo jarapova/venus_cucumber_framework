@@ -1,0 +1,114 @@
+{
+  "total" : 11,
+  "items" : [ {
+    "uid" : "31b9b1f4fc6a3762f0c3980b1a89b52c",
+    "name" : "This test suite declines Product Page functionality for Venus",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 16,
+      "unknown" : 0,
+      "total" : 16
+    }
+  }, {
+    "uid" : "021fbff55cd958c24de7a383349dd718",
+    "name" : "This test suite defines the Hamburger Menu functionality for Venus",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 9
+    }
+  }, {
+    "uid" : "5ee04eee4d55774bede1cb1f311bf35f",
+    "name" : "This test suite declines My Bag Page functionality for Venus",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "d3703a3add667ba5984afb3c9fac351e",
+    "name" : "This test suite declines footer functionality for Venus",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "56979e82d3f68849cfcefc2bec9d848d",
+    "name" : "This test suite declines Account page functionality for Venus",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "55abe1ff7ed976eebd298b012b481976",
+    "name" : "This test suite declines Product list Page functionality for Venus",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "db96ee92a2fd0c0998fc016a6cd30e49",
+    "name" : "This test suite defines the Search Menu functionality for Venus",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "139aae3bfebb1b8fa957968de946f77e",
+    "name" : "This test suite declines header functionality for Venus",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "1d71e06a9472d8d615b6bcdd4a5362bd",
+    "name" : "This test suite is for checking VEN homepage content: Shop Now buttons, plus_button and content",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "938bf409400798d3574495e99c9e210b",
+    "name" : "This test suite defines the navigation functionality for Venus",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

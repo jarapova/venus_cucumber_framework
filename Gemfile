@@ -1,0 +1,25 @@
+source 'https://rubygems.org'
+
+gem 'rake'
+
+group(:test) do
+  gem 'capybara'
+  gem 'capybara-screenshot'
+  gem 'cucumber'
+  gem 'parallel_tests'
+  gem 'rspec'
+  gem 'allure-cucumber', '~> 2.10.0.beta3'
+  gem 'allure-ruby-commons', '~> 2.10.0.beta3'
+  gem 'rspec-steps'
+  gem 'rspec-expectations'
+  gem 'selenium-webdriver'
+  gem 'single_test'
+  gem 'syntax'
+  gem 'true_automation'
+  gem 'ruby-debug-ide'
+  gem 'debase'
+  gem 'webdrivers', '~> 3.0'
+  gem 'httparty'
+  gem 'nokogiri'
+  gem 'mail'
+end

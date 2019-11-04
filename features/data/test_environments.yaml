@@ -1,0 +1,14 @@
+venus:
+  prod: "https://venus.com"
+  preprod: "https://venus-preprod.moovweb.cloud"
+  stage: "https://venus-stage.moovweb.cloud"
+  qa: "https://venus-qa.moovweb.cloud"
+  dev: "https://venus-dev.moovweb.cloud"
+  moov_app_origin: "https://moov-app-origin.venus.com"
+  app: "https://venus-app.moovweb.cloud"
+revolve:
+  pwa: "https://revolve-pwa.moovweb.cloud"
+stage:
+  uat: "https://stageuat.moovweb.cloud"
+  dev: "https://stagedev.moovweb.cloud"
+

@@ -1,0 +1,6 @@
+header_elements:
+  hamburger_button: "//button[@aria-label='Menu']"
+  search_button: "//button[@aria-label='Search']"
+  logo_button: "//span[text()='Revolve, Apparel & Fashion' or text()='Forward by elyse walker1']/parent::a"
+  favorites_button: "//button[@aria-label='Favorites']"
+  сart_button: "//button[@aria-label='Cart']"

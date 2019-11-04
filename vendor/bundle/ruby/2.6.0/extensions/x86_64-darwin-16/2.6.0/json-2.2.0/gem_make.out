@@ -1,0 +1,13 @@
+current directory: /Users/gleb/IdeaProjects/mw-automation-framework/vendor/bundle/ruby/2.6.0/gems/json-2.2.0/ext/json
+/Users/gleb/.rvm/rubies/ruby-2.6.4/bin/ruby -I /Users/gleb/.rvm/rubies/ruby-2.6.4/lib/ruby/site_ruby/2.6.0 -r ./siteconf20190925-97237-14d418e.rb extconf.rb
+creating Makefile
+
+current directory: /Users/gleb/IdeaProjects/mw-automation-framework/vendor/bundle/ruby/2.6.0/gems/json-2.2.0/ext/json
+make "DESTDIR=" clean
+
+current directory: /Users/gleb/IdeaProjects/mw-automation-framework/vendor/bundle/ruby/2.6.0/gems/json-2.2.0/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/gleb/IdeaProjects/mw-automation-framework/vendor/bundle/ruby/2.6.0/gems/json-2.2.0/ext/json
+make "DESTDIR=" install

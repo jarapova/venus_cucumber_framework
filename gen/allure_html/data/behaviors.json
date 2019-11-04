@@ -1,0 +1,1171 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "This test suite declines Account page functionality for Venus",
+    "children" : [ {
+      "name" : "As user I can login to account using my credentials",
+      "children" : [ {
+        "name" : "As user I can login to account using my credentials",
+        "uid" : "2aeefe018b5d6979",
+        "parentUid" : "e85880246419e86cabee6fccccf7364d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571072081874,
+          "stop" : 1571072104520,
+          "duration" : 22646
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e85880246419e86cabee6fccccf7364d"
+    }, {
+      "name" : "As logged in User I want to click \"Log out\" in account icon popup and be logged out",
+      "children" : [ {
+        "name" : "As logged in User I want to click \"Log out\" in account icon popup and be logged out",
+        "uid" : "c235d866c82e4ea7",
+        "parentUid" : "330e2a0d9a4c13a95718a6a2d6ce5d6c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571072104523,
+          "stop" : 1571072125877,
+          "duration" : 21354
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "330e2a0d9a4c13a95718a6a2d6ce5d6c"
+    }, {
+      "name" : "User able to switch between accounts tab",
+      "children" : [ {
+        "name" : "User able to switch between accounts tab",
+        "uid" : "7a1399da0e06195",
+        "parentUid" : "07067e5eee438e733c1e18bbbd4115df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571072125881,
+          "stop" : 1571072224223,
+          "duration" : 98342
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "07067e5eee438e733c1e18bbbd4115df"
+    }, {
+      "name" : "As user I want to add item to wishlist",
+      "children" : [ {
+        "name" : "As user I want to add item to wishlist",
+        "uid" : "8baa210063f6c6a9",
+        "parentUid" : "2c13702518df67bd97395fd99b2ecc99",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571072224225,
+          "stop" : 1571072364647,
+          "duration" : 140422
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2c13702518df67bd97395fd99b2ecc99"
+    }, {
+      "name" : "As Logged in user I can select account icon in header and can navigate to each option from popup",
+      "children" : [ {
+        "name" : "As Logged in user I can select account icon in header and can navigate to each option from popup",
+        "uid" : "e8c04d64bab5b023",
+        "parentUid" : "8025d8cf9a110260df3935cda1fcc718",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571072364668,
+          "stop" : 1571072537191,
+          "duration" : 172523
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8025d8cf9a110260df3935cda1fcc718"
+    }, {
+      "name" : "As user I want to use forgot password function",
+      "children" : [ {
+        "name" : "As user I want to use forgot password function",
+        "uid" : "596976412ab41fe7",
+        "parentUid" : "58d13de5756a43ec1abadf52a3762277",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571072537194,
+          "stop" : 1571072551958,
+          "duration" : 14764
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "58d13de5756a43ec1abadf52a3762277"
+    } ],
+    "uid" : "4d473d502c928be7e694d6e991c60f62"
+  }, {
+    "name" : "This test suite declines My Bag Page functionality for Venus",
+    "children" : [ {
+      "name" : "As user I want proceed to checkout using 1st Proceed to checkout button",
+      "children" : [ {
+        "name" : "As user I want proceed to checkout using 1st Proceed to checkout button",
+        "uid" : "83a6d474fb31ac06",
+        "parentUid" : "2413822c2925fc4ea088705df82a6b5f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571072551963,
+          "stop" : 1571072610567,
+          "duration" : 58604
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2413822c2925fc4ea088705df82a6b5f"
+    }, {
+      "name" : "As user I want proceed to checkout using 2nd Proceed to checkout button",
+      "children" : [ {
+        "name" : "As user I want proceed to checkout using 2nd Proceed to checkout button",
+        "uid" : "98e0f7f631b168eb",
+        "parentUid" : "0cc401249db964c3a7876c34cac5e80f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571072610574,
+          "stop" : 1571072664372,
+          "duration" : 53798
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0cc401249db964c3a7876c34cac5e80f"
+    }, {
+      "name" : "As user I want change item qty on cart page",
+      "children" : [ {
+        "name" : "As user I want change item qty on cart page",
+        "uid" : "9dce5b72ded9bff4",
+        "parentUid" : "92af23b15c1c0cafc8961e72832003b5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571072664379,
+          "stop" : 1571072717924,
+          "duration" : 53545
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "92af23b15c1c0cafc8961e72832003b5"
+    }, {
+      "name" : "As user I want remove item from cart",
+      "children" : [ {
+        "name" : "As user I want remove item from cart",
+        "uid" : "c9a1e3043be12f1b",
+        "parentUid" : "6138808863f3c977e0dfd61a46ad7dbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571072717930,
+          "stop" : 1571072782923,
+          "duration" : 64993
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6138808863f3c977e0dfd61a46ad7dbb"
+    }, {
+      "name" : "As user I want see correct estimated total price",
+      "children" : [ {
+        "name" : "As user I want see correct estimated total price",
+        "uid" : "f6556927c3967663",
+        "parentUid" : "4a31d253644e7d8c1ae273f8794cf142",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571072782925,
+          "stop" : 1571072835946,
+          "duration" : 53021
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4a31d253644e7d8c1ae273f8794cf142"
+    }, {
+      "name" : "As user I want see expected content on empty cart page",
+      "children" : [ {
+        "name" : "As user I want see expected content on empty cart page",
+        "uid" : "d7c530b02723cbb1",
+        "parentUid" : "ab8535d518c3284b93cdd4aedd918511",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571072835950,
+          "stop" : 1571072849536,
+          "duration" : 13586
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ab8535d518c3284b93cdd4aedd918511"
+    }, {
+      "name" : "As guest user I want proceed to checkout using checkout as guest button",
+      "children" : [ {
+        "name" : "As guest user I want proceed to checkout using checkout as guest button",
+        "uid" : "d9683fb1124e7663",
+        "parentUid" : "46efec6cca0032124c7e13e33aacb9dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571075522032,
+          "stop" : 1571075590641,
+          "duration" : 68609
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "46efec6cca0032124c7e13e33aacb9dc"
+    } ],
+    "uid" : "8be17e2e689bff9d4eae9af7e65324fd"
+  }, {
+    "name" : "This test suite declines footer functionality for Venus",
+    "children" : [ {
+      "name" : "As user I want see all expected content for footer",
+      "children" : [ {
+        "name" : "As user I want see all expected content for footer",
+        "uid" : "d834632376e1b314",
+        "parentUid" : "dbc42cfaff26196e783af162235883c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571072918242,
+          "stop" : 1571072920271,
+          "duration" : 2029
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dbc42cfaff26196e783af162235883c1"
+    }, {
+      "name" : "As user I want see customer care phone number and make call action by click",
+      "children" : [ {
+        "name" : "As user I want see customer care phone number and make call action by click",
+        "uid" : "63c07e59a0a6d163",
+        "parentUid" : "6a145dff7e5d56032e466fdf208b2a39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571072920276,
+          "stop" : 1571072921565,
+          "duration" : 1289
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6a145dff7e5d56032e466fdf208b2a39"
+    }, {
+      "name" : "As user I want see navigation links in footer",
+      "children" : [ {
+        "name" : "As user I want see navigation links in footer",
+        "uid" : "ab69a6c6417c8b19",
+        "parentUid" : "090adefc46ac13e49f6d6e87929512dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571072950972,
+          "stop" : 1571073054687,
+          "duration" : 103715
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "090adefc46ac13e49f6d6e87929512dd"
+    }, {
+      "name" : "As user I want Copyright information",
+      "children" : [ {
+        "name" : "As user I want Copyright information",
+        "uid" : "c5be9986ba87ee54",
+        "parentUid" : "f47045b1354071089fea2d99fb515e70",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571073054695,
+          "stop" : 1571073056596,
+          "duration" : 1901
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f47045b1354071089fea2d99fb515e70"
+    }, {
+      "name" : "As user I want to download Android app from footer",
+      "children" : [ {
+        "name" : "As user I want to download Android app from footer",
+        "uid" : "e14331b640cb6bbb",
+        "parentUid" : "f0584b10e5212af16e8eac2b6c67728f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571073056598,
+          "stop" : 1571073058677,
+          "duration" : 2079
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f0584b10e5212af16e8eac2b6c67728f"
+    }, {
+      "name" : "As user I want to download iOS app from footer",
+      "children" : [ {
+        "name" : "As user I want to download iOS app from footer",
+        "uid" : "c269ea924727699a",
+        "parentUid" : "a4d3cbc47ed5cab3c4665780a2cea0b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571073058680,
+          "stop" : 1571073060217,
+          "duration" : 1537
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a4d3cbc47ed5cab3c4665780a2cea0b3"
+    }, {
+      "name" : "As user I want see social icons in footer",
+      "children" : [ {
+        "name" : "As user I want see social icons in footer",
+        "uid" : "4345a3319da20bcd",
+        "parentUid" : "ac13ca46d8183078755fdc1e944e645d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571076667954,
+          "stop" : 1571076672733,
+          "duration" : 4779
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ac13ca46d8183078755fdc1e944e645d"
+    } ],
+    "uid" : "5a525f73fd5a95d2b9a5fd1ac7472740"
+  }, {
+    "name" : "This test suite defines the Hamburger Menu functionality for Venus",
+    "children" : [ {
+      "name" : "As user I want to open and close the Hamburger Menu",
+      "children" : [ {
+        "name" : "As user I want to open and close the Hamburger Menu",
+        "uid" : "895c405b29cd76f4",
+        "parentUid" : "a0d697f684fdc0dc53f6d4ce427c24e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571073060221,
+          "stop" : 1571073084809,
+          "duration" : 24588
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a0d697f684fdc0dc53f6d4ce427c24e5"
+    }, {
+      "name" : "As user I want to navigate to the category page through the Hamburger Menu",
+      "children" : [ {
+        "name" : "As user I want to navigate to the category page through the Hamburger Menu",
+        "uid" : "b4fb54b6602d71f2",
+        "parentUid" : "e33b069925cea98429912bf995c94fa0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571073084815,
+          "stop" : 1571073133064,
+          "duration" : 48249
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e33b069925cea98429912bf995c94fa0"
+    }, {
+      "name" : "As user I want use venus_card link in hamburger menu",
+      "children" : [ {
+        "name" : "As user I want use venus_card link in hamburger menu",
+        "uid" : "a03e43c861bf7b7c",
+        "parentUid" : "2ee47c9225b1768c8266bda14c84a050",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571073133067,
+          "stop" : 1571073146425,
+          "duration" : 13358
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2ee47c9225b1768c8266bda14c84a050"
+    }, {
+      "name" : "As user I want use about_us link in hamburger menu",
+      "children" : [ {
+        "name" : "As user I want use about_us link in hamburger menu",
+        "uid" : "295ced478df46cd9",
+        "parentUid" : "d477ce0f601aa1fe538044a2c2439432",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571073146429,
+          "stop" : 1571073161900,
+          "duration" : 15471
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d477ce0f601aa1fe538044a2c2439432"
+    }, {
+      "name" : "As user I want use contact_us link in hamburger menu",
+      "children" : [ {
+        "name" : "As user I want use contact_us link in hamburger menu",
+        "uid" : "43ef42adb8f57d5c",
+        "parentUid" : "d3eb3e819b7d6ea274d68afcd186c33d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571073161906,
+          "stop" : 1571073177227,
+          "duration" : 15321
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d3eb3e819b7d6ea274d68afcd186c33d"
+    }, {
+      "name" : "As user I want use order_status link in hamburger menu",
+      "children" : [ {
+        "name" : "As user I want use order_status link in hamburger menu",
+        "uid" : "e9782f7712c6a0f6",
+        "parentUid" : "13272b9d051bffdaf2c8f376e1b328ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571073177230,
+          "stop" : 1571073193021,
+          "duration" : 15791
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "13272b9d051bffdaf2c8f376e1b328ad"
+    }, {
+      "name" : "As user I want use customer_care link in hamburger menu",
+      "children" : [ {
+        "name" : "As user I want use customer_care link in hamburger menu",
+        "uid" : "a31e73c648a33fea",
+        "parentUid" : "66a9b3f39ea41432ce9475e0751ea74f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571073193024,
+          "stop" : 1571073208530,
+          "duration" : 15506
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "66a9b3f39ea41432ce9475e0751ea74f"
+    }, {
+      "name" : "As user I want use request_a_catalog link in hamburger menu",
+      "children" : [ {
+        "name" : "As user I want use request_a_catalog link in hamburger menu",
+        "uid" : "6f336e7356424c91",
+        "parentUid" : "023570d630912d6113c265637ffb93c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571073208533,
+          "stop" : 1571073229463,
+          "duration" : 20930
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "023570d630912d6113c265637ffb93c1"
+    }, {
+      "name" : "As user I want use gift_cards link in hamburger menu",
+      "children" : [ {
+        "name" : "As user I want use gift_cards link in hamburger menu",
+        "uid" : "3bd9bf7e49301adf",
+        "parentUid" : "6a68507d5d2f5138c6189d33f85a217e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571073229479,
+          "stop" : 1571073246688,
+          "duration" : 17209
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6a68507d5d2f5138c6189d33f85a217e"
+    } ],
+    "uid" : "9657c9cab4826d7f6740fdc1387bf480"
+  }, {
+    "name" : "This test suite declines header functionality for Venus",
+    "children" : [ {
+      "name" : "As user I can select logo in header and be navigated to homepage",
+      "children" : [ {
+        "name" : "As user I can select logo in header and be navigated to homepage",
+        "uid" : "4a67e4f46ddadd41",
+        "parentUid" : "f6f2a48a9bebc543656e5c47fa51866a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571073246693,
+          "stop" : 1571073274705,
+          "duration" : 28012
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f6f2a48a9bebc543656e5c47fa51866a"
+    }, {
+      "name" : "As user I want to use Hamburger menu button to open hamburger menu",
+      "children" : [ {
+        "name" : "As user I want to use Hamburger menu button to open hamburger menu",
+        "uid" : "9e2bc52cfc4e63e0",
+        "parentUid" : "297322755e86082f20aaa6fd4999ffe5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571073274710,
+          "stop" : 1571073279090,
+          "duration" : 4380
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "297322755e86082f20aaa6fd4999ffe5"
+    }, {
+      "name" : "As user I want to click search_icon on header to search items on site",
+      "children" : [ {
+        "name" : "As user I want to click search_icon on header to search items on site",
+        "uid" : "4fe0765692aec93f",
+        "parentUid" : "2eec74d52a6641c7f740b0c984bdd38f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571073279105,
+          "stop" : 1571073281313,
+          "duration" : 2208
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2eec74d52a6641c7f740b0c984bdd38f"
+    }, {
+      "name" : "As user I want to see navigation links in header and navigate to expected category by click",
+      "children" : [ {
+        "name" : "As user I want to see navigation links in header and navigate to expected category by click",
+        "uid" : "f3cd6370a5eb9421",
+        "parentUid" : "06e18eb5ce232ad0fc357d9987d32b68",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571073281317,
+          "stop" : 1571073311994,
+          "duration" : 30677
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "06e18eb5ce232ad0fc357d9987d32b68"
+    } ],
+    "uid" : "9d11d7fea184260644b71c51607fab1b"
+  }, {
+    "name" : "This test suite is for checking VEN homepage content: Shop Now buttons, plus_button and content",
+    "children" : [ {
+      "name" : "As User I want to see shop_now_buttons on homepage",
+      "children" : [ {
+        "name" : "As User I want to see shop_now_buttons on homepage",
+        "uid" : "eb2e4e5b6042ab22",
+        "parentUid" : "f744bbfb180fed85b27b9f055d818906",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571073312022,
+          "stop" : 1571073317459,
+          "duration" : 5437
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f744bbfb180fed85b27b9f055d818906"
+    }, {
+      "name" : "As User I want to use plus_button on homepage",
+      "children" : [ {
+        "name" : "As User I want to use plus_button on homepage",
+        "uid" : "66fd0ec1a7aa1f93",
+        "parentUid" : "d8899e893f216df156ec4ff20486e4fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571073317462,
+          "stop" : 1571073352201,
+          "duration" : 34739
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d8899e893f216df156ec4ff20486e4fd"
+    }, {
+      "name" : "As User I want to see home_page_content on homepage",
+      "children" : [ {
+        "name" : "As User I want to see home_page_content on homepage",
+        "uid" : "c065e92da06ff10e",
+        "parentUid" : "11520071ef94003bd9ce80ab7471f238",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571073352207,
+          "stop" : 1571073365133,
+          "duration" : 12926
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "11520071ef94003bd9ce80ab7471f238"
+    }, {
+      "name" : "As User I to make email subscription and proceed to profile confirm",
+      "children" : [ {
+        "name" : "As User I to make email subscription and proceed to profile confirm",
+        "uid" : "42fffab46d05a62e",
+        "parentUid" : "f8cb1d8190e919b6080f05757893d7d3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571073365139,
+          "stop" : 1571073379521,
+          "duration" : 14382
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f8cb1d8190e919b6080f05757893d7d3"
+    } ],
+    "uid" : "7bd1663b453cc5a376b7db07345dd79b"
+  }, {
+    "name" : "This test suite declines Product list Page functionality for Venus",
+    "children" : [ {
+      "name" : "Category filter on PLP should have expected content",
+      "children" : [ {
+        "name" : "Category filter on PLP should have expected content",
+        "uid" : "3ae1b6b31deca186",
+        "parentUid" : "cf62b654c0bb6a6888e218381c36eba6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571073436034,
+          "stop" : 1571073442799,
+          "duration" : 6765
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cf62b654c0bb6a6888e218381c36eba6"
+    }, {
+      "name" : "PLP page should have expected content",
+      "children" : [ {
+        "name" : "PLP page should have expected content",
+        "uid" : "11f0cfd26bd626a1",
+        "parentUid" : "bad688d8019edb155653674237bd53ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571073442808,
+          "stop" : 1571073502674,
+          "duration" : 59866
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bad688d8019edb155653674237bd53ef"
+    }, {
+      "name" : "As user I want switch between subcategories using subcategory navigation filter",
+      "children" : [ {
+        "name" : "As user I want switch between subcategories using subcategory navigation filter",
+        "uid" : "37aa8bf51c6748ae",
+        "parentUid" : "51ba4c9bd9609629a8e6a611d233aaf0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571073502682,
+          "stop" : 1571073526647,
+          "duration" : 23965
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "51ba4c9bd9609629a8e6a611d233aaf0"
+    }, {
+      "name" : "User can sort items on items list page using \"Size filter\"",
+      "children" : [ {
+        "name" : "User can sort items on items list page using \"Size filter\"",
+        "uid" : "12938eb23064ba6b",
+        "parentUid" : "a6648712d0149cf0d89e3dfc6b11e290",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571073526650,
+          "stop" : 1571073597348,
+          "duration" : 70698
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a6648712d0149cf0d89e3dfc6b11e290"
+    }, {
+      "name" : "As user I want to  Navigate to PDP",
+      "children" : [ {
+        "name" : "As user I want to  Navigate to PDP",
+        "uid" : "5718cfbf7e04b9b3",
+        "parentUid" : "7ea4794e97b2857697d47fa508b3b9ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571073597352,
+          "stop" : 1571073622467,
+          "duration" : 25115
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7ea4794e97b2857697d47fa508b3b9ee"
+    }, {
+      "name" : "As user I want to see price with sale for items with sale",
+      "children" : [ {
+        "name" : "As user I want to see price with sale for items with sale",
+        "uid" : "91ddc6e3dd9fc891",
+        "parentUid" : "0f30d035632267d5494bf2b5870b4a0a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571073622471,
+          "stop" : 1571073649850,
+          "duration" : 27379
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0f30d035632267d5494bf2b5870b4a0a"
+    } ],
+    "uid" : "5c3ae694a99ceb48e9bce5373decd1f9"
+  }, {
+    "name" : "This test suite declines Product Page functionality for Venus",
+    "children" : [ {
+      "name" : "As user I want to Navigate to PDP page",
+      "children" : [ {
+        "name" : "As user I want to Navigate to PDP page",
+        "uid" : "b31cc8c487d1a900",
+        "parentUid" : "1cb4334a0a2494b098d98adbed36acc2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571073649853,
+          "stop" : 1571073665753,
+          "duration" : 15900
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1cb4334a0a2494b098d98adbed36acc2"
+    }, {
+      "name" : "As user I want see product images on PDP",
+      "children" : [ {
+        "name" : "As user I want see product images on PDP",
+        "uid" : "9e5bdb5601dcf096",
+        "parentUid" : "9a5a804917b0069a589925de16bab4f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571073733950,
+          "stop" : 1571073749876,
+          "duration" : 15926
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9a5a804917b0069a589925de16bab4f9"
+    }, {
+      "name" : "As user I want see sizes on PDP and choose available size",
+      "children" : [ {
+        "name" : "As user I want see sizes on PDP and choose available size",
+        "uid" : "b76c7377a573dede",
+        "parentUid" : "a08c487a8ad2ee0ed4f1e833e9ab00a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571073881439,
+          "stop" : 1571073934601,
+          "duration" : 53162
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a08c487a8ad2ee0ed4f1e833e9ab00a4"
+    }, {
+      "name" : "As user I want add item to cart with expected qty",
+      "children" : [ {
+        "name" : "As user I want add item to cart with expected qty",
+        "uid" : "3c60e167fc253eb4",
+        "parentUid" : "e689749f47a0da97f927241349fa5892",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571074000621,
+          "stop" : 1571074055720,
+          "duration" : 55099
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e689749f47a0da97f927241349fa5892"
+    }, {
+      "name" : "As user I want to add item to wishlist",
+      "children" : [ {
+        "name" : "As user I want to add item to wishlist",
+        "uid" : "a18460abfb6a6bac",
+        "parentUid" : "e1e674c00f67e46bdaabcd3bdbe1ea38",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571074055726,
+          "stop" : 1571074152589,
+          "duration" : 96863
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e1e674c00f67e46bdaabcd3bdbe1ea38"
+    }, {
+      "name" : "As user I want to add item to cart",
+      "children" : [ {
+        "name" : "As user I want to add item to cart",
+        "uid" : "6536129874cf4d45",
+        "parentUid" : "5034fbd11c79166f6775c6d96ba5fab9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571074152597,
+          "stop" : 1571074186382,
+          "duration" : 33785
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5034fbd11c79166f6775c6d96ba5fab9"
+    }, {
+      "name" : "As user I want see product info categories",
+      "children" : [ {
+        "name" : "As user I want see product info categories",
+        "uid" : "2daa09a574195799",
+        "parentUid" : "2f71fe026923cd87c1c4eff2b115ae40",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571074186385,
+          "stop" : 1571074221279,
+          "duration" : 34894
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2f71fe026923cd87c1c4eff2b115ae40"
+    }, {
+      "name" : "As user I want add item to cart from Complete the look section",
+      "children" : [ {
+        "name" : "As user I want add item to cart from Complete the look section",
+        "uid" : "4f73b0b36190cd4d",
+        "parentUid" : "cb2ecff96527c61674eaa58170b0273e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571074260208,
+          "stop" : 1571074322641,
+          "duration" : 62433
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cb2ecff96527c61674eaa58170b0273e"
+    }, {
+      "name" : "As user I want open test item pdp from Recently viewed section",
+      "children" : [ {
+        "name" : "As user I want open test item pdp from Recently viewed section",
+        "uid" : "9beefcc13189f012",
+        "parentUid" : "cb35858e6ea859ef93d2f66268b72a6c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571074322647,
+          "stop" : 1571074379649,
+          "duration" : 57002
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cb35858e6ea859ef93d2f66268b72a6c"
+    }, {
+      "name" : "As user I want open test item pdp from You'll also like section",
+      "children" : [ {
+        "name" : "As user I want open test item pdp from You'll also like section",
+        "uid" : "38d580c4ea59c127",
+        "parentUid" : "79e97dbb79e3e2129e7c4d5bcf25f8eb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571074379657,
+          "stop" : 1571074497814,
+          "duration" : 118157
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "79e97dbb79e3e2129e7c4d5bcf25f8eb"
+    }, {
+      "name" : "As user I want proceed to checkout with item in stock",
+      "children" : [ {
+        "name" : "As user I want proceed to checkout with item in stock",
+        "uid" : "679737be8d5df7c2",
+        "parentUid" : "fa695444645f731114b73882315c053b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571074497822,
+          "stop" : 1571074594889,
+          "duration" : 97067
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fa695444645f731114b73882315c053b"
+    }, {
+      "name" : "As user I want proceed to checkout with item in stock from wishlist",
+      "children" : [ {
+        "name" : "As user I want proceed to checkout with item in stock from wishlist",
+        "uid" : "3b4bcc81031100a8",
+        "parentUid" : "2ee808fa174afacc8e7384174911fea6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571074594897,
+          "stop" : 1571074769013,
+          "duration" : 174116
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2ee808fa174afacc8e7384174911fea6"
+    }, {
+      "name" : "As user I want see expected content on PDP",
+      "children" : [ {
+        "name" : "As user I want see expected content on PDP",
+        "uid" : "ce2059810c5c845e",
+        "parentUid" : "f4f127ea781399d6d1849a1b404d6348",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571075883956,
+          "stop" : 1571075915530,
+          "duration" : 31574
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f4f127ea781399d6d1849a1b404d6348"
+    }, {
+      "name" : "As user I want to zoom product main image on PDP",
+      "children" : [ {
+        "name" : "As user I want to zoom product main image on PDP",
+        "uid" : "66b55b9c76896664",
+        "parentUid" : "af235fdbe645c0d7d343303a4545ef0d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571076035269,
+          "stop" : 1571076097304,
+          "duration" : 62035
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "af235fdbe645c0d7d343303a4545ef0d"
+    }, {
+      "name" : "As user I want see colors on PDP and choose available color",
+      "children" : [ {
+        "name" : "As user I want see colors on PDP and choose available color",
+        "uid" : "9d58a11acbe18393",
+        "parentUid" : "dead958a351769012d94513f604cd7bb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571076198702,
+          "stop" : 1571076350292,
+          "duration" : 151590
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dead958a351769012d94513f604cd7bb"
+    }, {
+      "name" : "As user I want navigate to size chart page from pdp",
+      "children" : [ {
+        "name" : "As user I want navigate to size chart page from pdp",
+        "uid" : "48c652e487c7fb65",
+        "parentUid" : "15fa7d371b94f7ba056b8d43c0f1c6c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571076378180,
+          "stop" : 1571076412066,
+          "duration" : 33886
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "15fa7d371b94f7ba056b8d43c0f1c6c1"
+    } ],
+    "uid" : "98b71074379a3e6ae3e3b60836dac228"
+  }, {
+    "name" : "This test suite defines the Search Menu functionality for Venus",
+    "children" : [ {
+      "name" : "user can open search modal",
+      "children" : [ {
+        "name" : "user can open search modal",
+        "uid" : "c29f4654709e698",
+        "parentUid" : "f98abf57998113d5de0e8391d9a09730",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571074769019,
+          "stop" : 1571074772315,
+          "duration" : 3296
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f98abf57998113d5de0e8391d9a09730"
+    }, {
+      "name" : "user can close search modal",
+      "children" : [ {
+        "name" : "user can close search modal",
+        "uid" : "b0047cbe9c48f0b3",
+        "parentUid" : "d233ca28f9796db7624da31d600e4506",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571074772319,
+          "stop" : 1571074787554,
+          "duration" : 15235
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d233ca28f9796db7624da31d600e4506"
+    }, {
+      "name" : "user can navigate to search results and pdp from search suggestions",
+      "children" : [ {
+        "name" : "user can navigate to search results and pdp from search suggestions",
+        "uid" : "9b4ff7c7e5486130",
+        "parentUid" : "4e532ebb30c54d346db1db9c901f71e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571074787560,
+          "stop" : 1571074803872,
+          "duration" : 16312
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4e532ebb30c54d346db1db9c901f71e5"
+    }, {
+      "name" : "user can navigate to search results and pdp using search button",
+      "children" : [ {
+        "name" : "user can navigate to search results and pdp using search button",
+        "uid" : "2a6b0c000611aa27",
+        "parentUid" : "ea383bfde1ba3a33e7c7da7cd29e64f7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571074803878,
+          "stop" : 1571074817416,
+          "duration" : 13538
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ea383bfde1ba3a33e7c7da7cd29e64f7"
+    }, {
+      "name" : "User can filter search results by category",
+      "children" : [ {
+        "name" : "User can filter search results by category",
+        "uid" : "13de13993a419c96",
+        "parentUid" : "e823187d0234543e6698142333d09c6b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571074817423,
+          "stop" : 1571074834532,
+          "duration" : 17109
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e823187d0234543e6698142333d09c6b"
+    } ],
+    "uid" : "f681d3975ccd2c973a90e4fd5b3bdc38"
+  }, {
+    "name" : "This test suite defines the navigation functionality for Venus",
+    "children" : [ {
+      "name" : "As user I want to use breadcrumbs to navigate back to homepage",
+      "children" : [ {
+        "name" : "As user I want to use breadcrumbs to navigate back to homepage",
+        "uid" : "b805ce351d3509b4",
+        "parentUid" : "a466c80a159b87dd56c76a5b2ac1a8e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571076522435,
+          "stop" : 1571076555878,
+          "duration" : 33443
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a466c80a159b87dd56c76a5b2ac1a8e5"
+    } ],
+    "uid" : "163320a3f503d573f5813c72c20ad569"
+  }, {
+    "name" : "As a customer, I need to see my current page location based on the navigation hierarchy so I can quickly go back to the previous page sections using breadcrumbs.",
+    "children" : [ {
+      "name" : "[Venus] User can quickly go back to the previous page sections using breadcrumbs",
+      "children" : [ {
+        "name" : "[Venus] User can quickly go back to the previous page sections using breadcrumbs",
+        "uid" : "110ed48955a16def",
+        "parentUid" : "22b73a9be7f6be312f881fb3a07847f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571076624791,
+          "stop" : 1571076649379,
+          "duration" : 24588
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "22b73a9be7f6be312f881fb3a07847f5"
+    } ],
+    "uid" : "73ea453552784d4690acdfcacc64ca85"
+  } ]
+}
