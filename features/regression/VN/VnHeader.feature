@@ -9,6 +9,7 @@ Feature: This test suite declines header functionality for Venus
   Navigation links are presented in main navigation carousel and redirects user to correct page ========= Ready for dev
 
   #  Click on logo to navigate homepage
+  @test
   Scenario: As user I can select logo in header and be navigated to homepage
     Given user is on home_page
     When user click hamburger_menu_icon on header
@@ -18,6 +19,7 @@ Feature: This test suite declines header functionality for Venus
     Then user can see "home_page_content" on home_page
 
   #Hamburger menu button opens hamburger menu
+  @test
   Scenario: As user I want to use Hamburger menu button to open hamburger menu
     Given user is on home_page
     When user click hamburger_menu_icon on header
@@ -26,6 +28,7 @@ Feature: This test suite declines header functionality for Venus
 
 
   #User can search items by clicking on search icon
+  @test
   Scenario: As user I want to click search_icon on header to search items on site
     Given user is on home_page
     When user click search_icon on header
@@ -50,6 +53,7 @@ Feature: This test suite declines header functionality for Venus
 #    And user can see expected items count on cart icon
 
   #Navigation links are presented in main navigation carousel and redirects user to correct page
+  @test
   Scenario: As user I want to see navigation links in header and navigate to expected category by click
     Given user is on home_page
     And user can see main_navigation_carousel on header

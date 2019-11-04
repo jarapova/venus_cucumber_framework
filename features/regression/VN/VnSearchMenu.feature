@@ -7,12 +7,14 @@ Feature: This test suite defines the Search Menu functionality for Venus
   Filter by category for search results
 
   #Open Search modal
+  @test
   Scenario: user can open search modal
     Given user is on home_page
     And user click search_icon on header
     And user can see "search_modal_content" on search_modal
 
   #Close Search modal
+  @test
   Scenario: user can close search modal
     Given user is on home_page
     And user click search_icon on header
@@ -22,6 +24,7 @@ Feature: This test suite defines the Search Menu functionality for Venus
 
   #Navigate to search results and pdp from search suggestions
   #Error bug still found in search ""
+  @test
   Scenario: user can navigate to search results and pdp from search suggestions
     Given user is on home_page
     And user click search_icon on header
@@ -33,6 +36,7 @@ Feature: This test suite defines the Search Menu functionality for Venus
     And user can see "product_page_content" on product_page
 
   #Navigate to search results and pdp using search button
+  @test
   Scenario: user can navigate to search results and pdp using search button
     Given user is on home_page
     And user click search_icon on header
@@ -43,6 +47,7 @@ Feature: This test suite defines the Search Menu functionality for Venus
     And user can see "product_page_content" on product_page
 
   #Filter by category for search results
+  @test
   Scenario: User can filter search results by category
     Given user is on home_page
     And user click search_icon on header

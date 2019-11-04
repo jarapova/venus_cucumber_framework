@@ -8,6 +8,7 @@ User can navigate to subcategory page through Hamburger Menu ===================
 Navigation links are presented in hamburger ===================================== Ready for dev 
 
 # User can open and close Hamburger Menu =========================================== Ready for dev =====================
+  @test
   Scenario: As user I want to open and close the Hamburger Menu
     Given user is on home_page
     When user click hamburger_menu_icon on header
@@ -37,6 +38,7 @@ Navigation links are presented in hamburger ====================================
     And user can see "hamburger_subcategory_page_content" on hamburger_menu
 
   #Navigation links are presented in hamburger ===================================== Ready for dev =====================
+  @test
   Scenario: As user I want use venus_card link in hamburger menu
     Given user is on home_page
     When user click hamburger_menu_icon on header
@@ -44,6 +46,7 @@ Navigation links are presented in hamburger ====================================
     Then user can see "venus_card_page_content" on venus_card_page
 
   #Navigation links are presented in hamburger ===================================== Ready for dev =====================
+  @test
   Scenario: As user I want use about_us link in hamburger menu
     Given user is on home_page
     When user click hamburger_menu_icon on header
@@ -51,6 +54,7 @@ Navigation links are presented in hamburger ====================================
     Then user can see "about_us_page_content" on about_us_page
 
   #Navigation links are presented in hamburger ===================================== Ready for dev =====================
+  @test
   Scenario: As user I want use contact_us link in hamburger menu
     Given user is on home_page
     When user click hamburger_menu_icon on header
@@ -58,6 +62,7 @@ Navigation links are presented in hamburger ====================================
     Then user can see "contact_us_page_content" on contact_us_page
 
   #Navigation link order_status for guest user is presented in hamburger ===================================== Ready for dev =====================
+  @test
   Scenario: As user I want use order_status link in hamburger menu
     Given user is on home_page
     When user click hamburger_menu_icon on header
@@ -65,6 +70,7 @@ Navigation links are presented in hamburger ====================================
     Then user can see "order_status_guest_page_content" on order_status_page
 
   #Navigation links are presented in hamburger ===================================== Ready for dev =====================
+  @test
   Scenario: As user I want use customer_care link in hamburger menu
     Given user is on home_page
     When user click hamburger_menu_icon on header
@@ -72,6 +78,7 @@ Navigation links are presented in hamburger ====================================
     Then user can see "customer_care_page_content" on customer_care_page
 
   #Navigation links are presented in hamburger ===================================== Ready for dev =====================
+  @test
   Scenario: As user I want use request_a_catalog link in hamburger menu
     Given user is on home_page
     When user click hamburger_menu_icon on header
@@ -79,6 +86,7 @@ Navigation links are presented in hamburger ====================================
     Then user can see "request_a_catalog_page_content" on request_a_catalog_page
 
   #Navigation links are presented in hamburger ===================================== Ready for dev =====================
+  @test
   Scenario: As user I want use gift_cards link in hamburger menu
     Given user is on home_page
     When user click hamburger_menu_icon on header

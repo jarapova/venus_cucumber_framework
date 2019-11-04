@@ -14,6 +14,7 @@ Feature: This test suite declines Product Page functionality for Venus
   Open PDP of item from You'll also like section
 
 #  Navigate to PDP
+  @test
   Scenario: As user I want to Navigate to PDP page
     Given user is on home_page
     And user can see main_navigation_carousel on header
@@ -23,6 +24,7 @@ Feature: This test suite declines Product Page functionality for Venus
     And user can see "product_page_content" on product_page
 
  # User can see Product name, style and price of testing item
+  @test
   Scenario: As user I want see expected content on PDP
     Given user is on "item_1" product_page
     And user click "color_button_olmu" on product_page
@@ -31,6 +33,7 @@ Feature: This test suite declines Product Page functionality for Venus
 
 
  # Product images switch galary image functionality
+  @test
   Scenario: As user I want see product images on PDP
     Given user is on "item_1" product_page
     And user can see "product_page_content" on product_page
@@ -38,6 +41,7 @@ Feature: This test suite declines Product Page functionality for Venus
     Then user click "all_images" from item_image_galary on product_page
 
  # Product main image zoom functionality
+  @test
   Scenario: As user I want to zoom product main image on PDP
     Given user is on "item_1" product_page
     And user can see "product_page_content" on product_page
@@ -80,6 +84,7 @@ Feature: This test suite declines Product Page functionality for Venus
 
 
  # Product sizes functionality
+  @test
   Scenario: As user I want see sizes on PDP and choose available size
     Given user is on "item_1" product_page
     And user can see "product_page_content" on product_page
@@ -91,6 +96,7 @@ Feature: This test suite declines Product Page functionality for Venus
 
 
  # Size chart
+  @test
   Scenario: As user I want navigate to size chart page from pdp
     Given user is on "item_1" product_page
     And user can see "product_page_content" on product_page
@@ -98,6 +104,7 @@ Feature: This test suite declines Product Page functionality for Venus
     And user can see "size_chart_page_content" on size_chart_page
 
  # Change item qty
+  @test
   Scenario: As user I want add item to cart with expected qty
     Given user is on "item_1" product_page
     And user can see "product_page_content" on product_page
@@ -110,6 +117,7 @@ Feature: This test suite declines Product Page functionality for Venus
     Then user can see "item_1_qty" with value "2" on cart_page
 
     # Add item to wishlist
+  @test
   Scenario: As user I want to add item to wishlist
     Given user make login as "user1"
     Then user click "wish_list" on account_navigation_tab
@@ -125,6 +133,7 @@ Feature: This test suite declines Product Page functionality for Venus
 
 
  # Add item to bag
+  @test
   Scenario: As user I want to add item to cart
     Given user is on "item_1" product_page
     And user can see "product_page_content" on product_page
@@ -136,6 +145,7 @@ Feature: This test suite declines Product Page functionality for Venus
     And user can see "test_item_1_hash" on cart_page
 
  # Product info categories
+  @test
   Scenario: As user I want see product info categories
     Given user is on "item_1" product_page
     And user can see "product_page_content" on product_page
@@ -149,6 +159,7 @@ Feature: This test suite declines Product Page functionality for Venus
 
  # Add item to cart from Complete the look section
   #Sometimes Complete the look page does not appear
+  @test
   Scenario: As user I want add item to cart from Complete the look section
     Given user is on "item_2" product_page
     And user can see "product_page_content" on product_page
@@ -163,6 +174,7 @@ Feature: This test suite declines Product Page functionality for Venus
 
 
  # Open PDP of item from Recently viewed section
+  @test
   Scenario: As user I want open test item pdp from Recently viewed section
     Given user is on "item_2" product_page
     And user can see "product_page_content" on product_page
@@ -176,6 +188,7 @@ Feature: This test suite declines Product Page functionality for Venus
 
 
  # Open PDP of item from You'll also like section
+  @test
   Scenario: As user I want open test item pdp from You'll also like section
     Given user is on "item_2" product_page
     And user can see "product_page_content" on product_page
@@ -199,6 +212,7 @@ Feature: This test suite declines Product Page functionality for Venus
 
 
     # Proceed to checkout with item in stock
+  @test
   Scenario: As user I want proceed to checkout with item in stock
     Given user is on "Color_skinny_jeans" product_page
     And user can see "product_page_content" on product_page
@@ -213,6 +227,7 @@ Feature: This test suite declines Product Page functionality for Venus
 
 
     # Proceed to checkout with item in stock from wishlist
+  @test
   Scenario: As user I want proceed to checkout with item in stock from wishlist
      When user make login as "user1"
     Then user click "wish_list" on account_navigation_tab

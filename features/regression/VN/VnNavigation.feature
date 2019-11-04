@@ -1,6 +1,7 @@
 Feature: This test suite defines the navigation functionality for Venus
 #work
 #Navigate back to home page using breadcrumbs================= Done ===================================================
+@test
 Scenario: As user I want to use breadcrumbs to navigate back to homepage
 Given user is on home_page
 And user can see main_navigation_carousel on header

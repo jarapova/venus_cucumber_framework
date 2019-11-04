@@ -7,6 +7,7 @@ Feature: This test suite declines Product list Page functionality for Venus
   Navigate to top of PLP page  - Ready for dev
   Price with sale
 
+  @test
   Scenario: Category filter on PLP should have expected content
     Given user is on home_page
     And user can see main_navigation_carousel on header

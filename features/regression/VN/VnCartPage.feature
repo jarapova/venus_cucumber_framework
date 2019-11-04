@@ -13,6 +13,7 @@ Offer code =====================================================================
 
 #dont work
   #Proceed to checkout 1 button works as expected
+  @test
   Scenario: As user I want proceed to checkout using 1st Proceed to checkout button
     Given user is on "item_1" product_page
     And user can see "product_page_content" on product_page
@@ -28,6 +29,7 @@ Offer code =====================================================================
 
 #dont work
     #Proceed to checkout 2 button works as expected
+  @test
   Scenario: As user I want proceed to checkout using 2nd Proceed to checkout button
     Given user is on "item_1" product_page
     And user can see "product_page_content" on product_page
@@ -42,6 +44,7 @@ Offer code =====================================================================
     And user can see "checkout_page_content" on checkout_page
 
   #Change item qty on cart page
+  @test
   Scenario: As user I want change item qty on cart page
     Given user is on "item_1" product_page
     And user can see "product_page_content" on product_page
@@ -57,6 +60,7 @@ Offer code =====================================================================
 
 
   #Remove item from cart
+  @test
   Scenario: As user I want remove item from cart
     Given user is on "item_1" product_page
     And user can see "product_page_content" on product_page
@@ -72,6 +76,7 @@ Offer code =====================================================================
 
 
   #Estimated total price calculating
+  @test
   Scenario: As user I want see correct estimated total price
     Given user is on "item_1" product_page
     And user can see "product_page_content" on product_page
@@ -85,13 +90,15 @@ Offer code =====================================================================
     And user can see order_total_value on cart_page
 
   #See expected content on empty cart page
+  @test
   Scenario: As user I want see expected content on empty cart page
     Given user is on home_page
     Then user click cart_icon on header
     Then user can see "cart_page_content" on cart_page
 
 
-    #Offer code
+    #Offer
+  @test
   Scenario: As guest user I want proceed to checkout using checkout as guest button
     Given user is on "item_1" product_page
     And user can see "product_page_content" on product_page

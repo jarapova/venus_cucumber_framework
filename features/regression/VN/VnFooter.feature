@@ -13,17 +13,20 @@ iOS app link is working ========================================================
 
 
   #User can see all expected content for footer modal
+  @test
   Scenario: As user I want see all expected content for footer
     Given user is on home_page
     When user can see "footer_modal_content" on footer
 
   #Phone number is clickable
+  @test
   Scenario: As user I want see customer care phone number and make call action by click
     Given user is on home_page
     When user can see "customer_care_phone_number" on footer
 
 
   #Expected social icons are presented
+  @test
   Scenario: As user I want see social icons in footer
     Given user is on home_page
     When user can see "instagram_social_icon" on footer
@@ -35,6 +38,7 @@ iOS app link is working ========================================================
 
 
   #Navigation links are presented in footer
+  @test
   Scenario: As user I want see navigation links in footer
     Given user is on home_page
     And user make login as "user1"
@@ -69,16 +73,19 @@ iOS app link is working ========================================================
     Then user can see "sitemap_page_content" on sitemap_page
 
   #Copyright information is presented
+  @test
   Scenario: As user I want Copyright information
     Given user is on home_page
     When user can see "copyright_information" on footer
 
   #Android app link is working
+  @test
   Scenario: As user I want to download Android app from footer
     Given user is on home_page
     When user can see "download_android_app" on footer
 
   #iOS app link is working
+  @test
   Scenario: As user I want to download iOS app from footer
     Given user is on home_page
     When   user can see "download_ios_app" on footer

@@ -44,10 +44,12 @@ Feature: This test suite is for checking VEN homepage content: Shop Now buttons,
 #    Given user is on home_page
 #    Then user can see "clearance_shop_now_button" on home_page
 
+  @test
   Scenario: As User I want to see shop_now_buttons on homepage
     Given user is on home_page
     Then user can see "all_shop_now_buttons_content" on home_page
 
+  @test
   Scenario: As User I want to use plus_button on homepage
     Given user is on home_page
     Then user can see plus_button on home_page
@@ -57,11 +59,12 @@ Feature: This test suite is for checking VEN homepage content: Shop Now buttons,
     When click plus_button on home_page
     Then user can see plus_button on home_page
 
+  @test
   Scenario: As User I want to see home_page_content on homepage
     Given user is on home_page
     Then user can see "home_page_content" on home_page
 
-
+  @test
   Scenario: As User I to make email subscription and proceed to profile confirm
     Given user is on home_page
     When user can see email_subscription_field on home_page
