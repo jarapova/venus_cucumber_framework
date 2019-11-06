@@ -1,15 +1,15 @@
 Feature: This test suite declines My Bag Page functionality for Venus
-
-Add random item to cart as logged user ================================================================ Ready for dev
-Add random items to cart as guest user ================================================================ Ready for dev
-See expected content on cart page ===================================================================== Ready for dev
-Proceed to checkout button works as expected ========================================================== Ready for dev
-See expected content for added items on cart page ===================================================== Ready for dev
-Change item qty on cart page ========================================================================== Ready for dev
-Remove item from cart ================================================================================= Ready for dev
-Estimated total price calculating ===================================================================== Ready for dev
-See expected content on empty cart page =============================================================== Ready for dev
-Offer code ============================================================================================ Ready for dev
+#
+#Add random item to cart as logged user ================================================================ Ready for dev
+#Add random items to cart as guest user ================================================================ Ready for dev
+#See expected content on cart page ===================================================================== Ready for dev
+#Proceed to checkout button works as expected ========================================================== Ready for dev
+#See expected content for added items on cart page ===================================================== Ready for dev
+#Change item qty on cart page ========================================================================== Ready for dev
+#Remove item from cart ================================================================================= Ready for dev
+#Estimated total price calculating ===================================================================== Ready for dev
+#See expected content on empty cart page =============================================================== Ready for dev
+#Offer code ============================================================================================ Ready for dev
 
 #dont work
   #Proceed to checkout 1 button works as expected
@@ -34,7 +34,7 @@ Offer code =====================================================================
     Given user is on "item_1" product_page
     And user can see "product_page_content" on product_page
     When user click "available_size_button" on product_page
-    Then user set "product_qty" with value "2" on product_page
+   Then user set "product_qty" with value "2" on product_page
     And user remember "test_item_1" product parameters on product_page
     Then user click add_to_bag_button on product_page
     And user click view_bag_button on add_to_bag_popup

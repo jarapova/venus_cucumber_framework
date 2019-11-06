@@ -430,6 +430,7 @@ Examples(venus.com):
 
 command for run tests with
 cucumber features/regression/VN/VnAccountPages.feature --retry 1 screenshot_on_fail=true ta_enabled=true --tag "@test"
+cucumber features/regression/VN/ --retry 1 screenshot_on_fail=true ta_enabled=true --tag "@test"
 
 
 

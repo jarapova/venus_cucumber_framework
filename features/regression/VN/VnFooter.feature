@@ -1,15 +1,15 @@
 
 Feature: This test suite declines footer functionality for Venus
 #work
-
-Phone number is clickable =============================================================================== Ready for dev
-Expected social icons are presented ===================================================================== Ready for dev
-User is able to make email subscription and proceed to profile confirm ================================== Ready for dev
-Navigation links are presented in footer ================================================================ Ready for dev
-User can change location options in footer ============================================================== Ready for dev
-Copyright information is presented ====================================================================== Ready for dev
-Android app link is working ============================================================================= Ready for dev
-iOS app link is working ================================================================================= Ready for dev
+#
+#Phone number is clickable =============================================================================== Ready for dev
+#Expected social icons are presented ===================================================================== Ready for dev
+#User is able to make email subscription and proceed to profile confirm ================================== Ready for dev
+#Navigation links are presented in footer ================================================================ Ready for dev
+#User can change location options in footer ============================================================== Ready for dev
+#Copyright information is presented ====================================================================== Ready for dev
+#Android app link is working ============================================================================= Ready for dev
+#iOS app link is working ================================================================================= Ready for dev
 
 
   #User can see all expected content for footer modal

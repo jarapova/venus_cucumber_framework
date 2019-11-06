@@ -127,8 +127,8 @@ complete_the_look_first_item_locators:
   complete_the_look_qty: "//h1[text()='Complete the Look']/../div[1]//div[@tabindex='0']"
   complete_the_look_available_sizes: "(//h1[text()='Complete the Look']/../div[1]//h2[text()='Size: ']//parent::div//parent::div//button[not(@disabled) and not(contains(., 'size chart'))])"
 multiple_options_locators:
-#  available_sizes: "(//div[@data-page='Product']/div[1]//h2[contains(text(), 'Size: ')]//parent::div//parent::div//button[not(@disabled) and not(contains(., 'size chart'))])"
-  available_sizes: "//button[(contains(., 'size chart'))]"
+  available_sizes: "(//div[@data-page='Product']/div[1]//h2[contains(text(), 'Size: ')]//parent::div//parent::div//button[not(@disabled) and not(contains(., 'size chart'))])"
+#  available_sizes: "//button[(contains(., 'size chart'))]"
   available_colors: "//div[@data-page='Product']/div[1]//img[contains(@src,'color')]/ancestor::button[@tabindex=0]"
   yal_items: "(//div[@option='tab0']//a[text()])"
 modal_buttons_locators:

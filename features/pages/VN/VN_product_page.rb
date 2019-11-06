@@ -38,6 +38,8 @@ module VN_ProductPage
 
 
   def self.set_item_qty_with_value(element_name, element_value)
+    VN_AllPage.scroll_to_bottom
+    VN_AllPage.scroll_to_top
     if element_name == "product_qty"
       qty_locator = vn_get_product_page['item_parameters_locators']['product_qty']
       find(:xpath, m_ta(PRODUCT_PAGE_PREFIX + 'product_qty', qty_locator)).click
@@ -345,10 +347,10 @@ module VN_ProductPage
 
 
   def self.get_available_product_sizes
+sleep 2
     available_item_sizes_locator = vn_get_product_page['multiple_options_locators']['available_sizes']
-    available_item_sizes = find_all(:xpath,
-                                    m_ta(PRODUCT_PAGE_PREFIX + 'available_sizes',
-                                       available_item_sizes_locator)).count
+    available_item_sizes = find_all(:xpath,  available_item_sizes_locator).count
+    # available_item_sizes = find_all(:xpath, m_ta(PRODUCT_PAGE_PREFIX + 'available_sizes', available_item_sizes_locator)).count #didn't work with xpath+TA
     size_name_array = Array.new
     (1..available_item_sizes).each do |i|
       available_item_sizes_names = find(:xpath, m_ta(PRODUCT_PAGE_PREFIX + "available_size#{i}",

@@ -76,7 +76,8 @@ module VN_CartPage
   def self.click_cart_page_content(element_name_to_click)
     cart_elements = vn_get_cart_page_locators
     element_locator = cart_elements[element_name_to_click]
-    find(:xpath, m_ta(CART_PAGE_PREFIX + element_name_to_click, element_locator)).click
+    # find(:xpath, m_ta(CART_PAGE_PREFIX + element_name_to_click, element_locator)).click #need investigate why element couldn't find
+    find(:xpath, element_locator).click
     p  "I've clicked #{element_name_to_click}"
   end
 

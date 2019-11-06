@@ -1,12 +1,12 @@
 Feature: This test suite declines header functionality for Venus
 #work
 
-  Hamburger menu button opens hamburger menu ============================================================ Ready for dev
-  Logo navigates to homepage ============================================================================ Ready for dev
-  User can search items by clicking on search icon ====================================================== Ready for dev
-  Favorite icon has correct count and opens favorite items list ========================================= Ready for dev
-  Cart icon has correct count and opens cart page ======================================================= Ready for dev
-  Navigation links are presented in main navigation carousel and redirects user to correct page ========= Ready for dev
+#  Hamburger menu button opens hamburger menu ============================================================ Ready for dev
+#  Logo navigates to homepage ============================================================================ Ready for dev
+#  User can search items by clicking on search icon ====================================================== Ready for dev
+#  Favorite icon has correct count and opens favorite items list ========================================= Ready for dev
+#  Cart icon has correct count and opens cart page ======================================================= Ready for dev
+#  Navigation links are presented in main navigation carousel and redirects user to correct page ========= Ready for dev
 
   #  Click on logo to navigate homepage
   @test

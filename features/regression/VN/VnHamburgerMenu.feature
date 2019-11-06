@@ -1,11 +1,11 @@
 Feature: This test suite defines the Hamburger Menu functionality for Venus
 
-
-Hamburger Menu flow:
-
-User can open and close Hamburger Menu ========================================= Ready for dev
-User can navigate to subcategory page through Hamburger Menu ====================== Ready for dev
-Navigation links are presented in hamburger ===================================== Ready for dev 
+#
+#Hamburger Menu flow:
+#
+#User can open and close Hamburger Menu ========================================= Ready for dev
+#User can navigate to subcategory page through Hamburger Menu ====================== Ready for dev
+#Navigation links are presented in hamburger ===================================== Ready for dev
 
 # User can open and close Hamburger Menu =========================================== Ready for dev =====================
   @test

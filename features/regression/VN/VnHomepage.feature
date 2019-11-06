@@ -1,7 +1,7 @@
 Feature: This test suite is for checking VEN homepage content: Shop Now buttons, plus_button and content
 #work
-  Shop Now buttons  ====================================================================================== Ready for dev
-  Plus button  =========================================================================================== Ready for dev
+#  Shop Now buttons  ====================================================================================== Ready for dev
+#  Plus button  =========================================================================================== Ready for dev
 #Error buttons have been removed
 #  Scenario: As User I want to see shop_collection_shop_now_button on homepage
 #    Given user is on home_page

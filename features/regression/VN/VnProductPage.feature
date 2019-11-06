@@ -1,17 +1,17 @@
 Feature: This test suite declines Product Page functionality for Venus
-
-  Navigate to PDP
-  User can see Product name, style and price
-  Product images functionality
-  Product colors functionality
-  Product sizes functionality
-  Size chart
-  Change item qty
-  Add item to bag
-  Add item to wishlist
-  Product info categories
-  Add item to cart from Complete the look section
-  Open PDP of item from You'll also like section
+#
+#  Navigate to PDP
+#  User can see Product name, style and price
+#  Product images functionality
+#  Product colors functionality
+#  Product sizes functionality
+#  Size chart
+#  Change item qty
+#  Add item to bag
+#  Add item to wishlist
+#  Product info categories
+#  Add item to cart from Complete the look section
+#  Open PDP of item from You'll also like section
 
 #  Navigate to PDP
   @test
@@ -109,7 +109,7 @@ Feature: This test suite declines Product Page functionality for Venus
     Given user is on "item_1" product_page
     And user can see "product_page_content" on product_page
     When user click "available_size_button" on product_page
-    Then user set "product_qty" with value "2" on product_page
+  Then user set "product_qty" with value "2" on product_page
     And user click add_to_bag_button on product_page
     Then user click view_bag_button on add_to_bag_popup
     And user can see "cart_page_content" on cart_page

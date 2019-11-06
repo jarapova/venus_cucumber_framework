@@ -1,10 +1,10 @@
 Feature: This test suite defines the Search Menu functionality for Venus
 #work
-  Open Search modal
-  Close Search modal
-  Navigate to search results from search suggestions
-  Navigate to search results
-  Filter by category for search results
+#  Open Search modal
+#  Close Search modal
+#  Navigate to search results from search suggestions
+#  Navigate to search results
+#  Filter by category for search results
 
   #Open Search modal
   @test

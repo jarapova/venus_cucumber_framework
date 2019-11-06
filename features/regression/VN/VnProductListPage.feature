@@ -1,11 +1,11 @@
 Feature: This test suite declines Product list Page functionality for Venus
 
-  PLP page should have expected content - Ready for dev
-  Category nav filter - Ready for dev
-  Size filter - Ready for dev
-  Navigate to PDP - Ready for dev
-  Navigate to top of PLP page  - Ready for dev
-  Price with sale
+#  PLP page should have expected content - Ready for dev
+#  Category nav filter - Ready for dev
+#  Size filter - Ready for dev
+#  Navigate to PDP - Ready for dev
+#  Navigate to top of PLP page  - Ready for dev
+#  Price with sale
 
   @test
   Scenario: Category filter on PLP should have expected content
