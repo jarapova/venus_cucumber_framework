@@ -80,12 +80,12 @@ module VN_CategoryPage
   end
 
   def self.select_subcategory_from_filter_on_category_page(arg)
-    # page.assert_selector(:xpath, m_ta(CATEGORY_PREFIX + "category_filter","(//div[@data-page='Category']//input[@name='subcategories'])/preceding-sibling::div")) //analyzer works
+    # page.assert_selector(:xpath, m_ta(CATEGORY_PREFIX + "category_filter","(//div[@data-page='Category']//input[@name='subcategories'])/preceding-sibling::div")) #analyzer works
     page.assert_selector(:xpath, "(//div[@data-page='Category']//input[@name='subcategories'])/preceding-sibling::div")
 
 
     # category_name = find(:xpath, m_ta(CATEGORY_PREFIX + "category_filter",
-    #                                   "(//div[@data-page='Category']//input[@name='subcategories'])/preceding-sibling::div")).text //analyzer works
+    #                                   "(//div[@data-page='Category']//input[@name='subcategories'])/preceding-sibling::div")).text #analyzer works
     category_name = find(:xpath,"(//div[@data-page='Category']//input[@name='subcategories'])/preceding-sibling::div").text
     category_name = category_name.downcase.capitalize
     p"I see #{category_name} navigation filter"
@@ -116,9 +116,9 @@ module VN_CategoryPage
 
   def self.clear_all_filters
     sleep 3
-    page.assert_selector(:xpath, m_ta(CATEGORY_PREFIX + "filter_clear_all_button",
-                                    "//span[text()='Clear All']/ancestor-or-self::button"))
-    page.assert_selector(:xpath, "//input[@type = 'checkbox']/preceding::label")
+    # page.assert_selector(:xpath, m_ta(CATEGORY_PREFIX + "filter_clear_all_button","//span[text()='Clear All']/ancestor-or-self::button")) #analizator work
+    page.assert_selector(:xpath, "//span[text()='Clear All']/ancestor-or-self::button")
+    # page.assert_selector(:xpath, "//input[@type = 'checkbox']/preceding::label")
     find(:xpath, m_ta(CATEGORY_PREFIX + "filter_clear_all_button",
                     "//span[text()='Clear All']/ancestor-or-self::button")).click
     p  "I cleared filter selections"
@@ -141,8 +141,10 @@ module VN_CategoryPage
   def self.select_random_size_filter_option
     count = find_all(:xpath, "(//label)").count
     p count
-    random_parameter = Random.rand(1..count)
-    find(:xpath, "(//label)[#{random_parameter}]").click
+
+    # random_parameter = Random.rand(1..count)
+    find(:xpath, "//h6[text()='By Size']").click
+    find(:xpath, "(//label)[1]").click
   end
 
   def self.click_view_filter_results
@@ -160,9 +162,9 @@ module VN_CategoryPage
   end
 
   def self.check_items_count_less
-    new_count = find(:xpath, m_ta(CATEGORY_PREFIX + "total_items",
-                                "//div[@data-page='Subcategory']//span[contains(., 'total items')]"))
-                    .text.match(/\d+/).to_s.to_i
+    sleep 4
+    # new_count = find(:xpath, m_ta(CATEGORY_PREFIX + "total_items","//div[@data-page='Subcategory']//span[contains(., 'total items')]")).text.match(/\d+/).to_s.to_i
+    new_count = find(:xpath, "//div[@data-page='Subcategory']//span[contains(., 'total items')]").text.match(/\d+/).to_s.to_i
     expect(new_count).to be <= $base_items_count
   end
 

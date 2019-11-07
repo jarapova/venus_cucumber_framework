@@ -53,8 +53,8 @@ Feature: This test suite declines Product Page functionality for Venus
     And user click close_zoomed_image on product_page
     And user can see zoomed_image_closed on product_page
 
-#not work
  # Product colors functionality
+  @test
   Scenario: As user I want see colors on PDP and choose available color
     Given user is on "item_1" product_page
     And user can see "product_page_content" on product_page

@@ -58,7 +58,8 @@ module VN_ProductPage
     VN_AllPage.scroll_to_bottom
     VN_AllPage.scroll_to_top
     element = vn_get_product_page_locator(element_name)
-    get_value = find(:xpath, m_ta(PRODUCT_PAGE_PREFIX + element_name, element)).text
+    # get_value = find(:xpath, m_ta(PRODUCT_PAGE_PREFIX + element_name, element)).text
+    get_value = find(:xpath,  element).text
 
     if element_name.include? "color"
       get_value = get_value.gsub("Color: ", "")
@@ -350,7 +351,7 @@ module VN_ProductPage
 sleep 2
     available_item_sizes_locator = vn_get_product_page['multiple_options_locators']['available_sizes']
     available_item_sizes = find_all(:xpath,  available_item_sizes_locator).count
-    # available_item_sizes = find_all(:xpath, m_ta(PRODUCT_PAGE_PREFIX + 'available_sizes', available_item_sizes_locator)).count #didn't work with xpath+TA
+    # available_item_sizes = find_all(:xpath, m_ta(PRODUCT_PAGE_PREFIX + 'available_sizes', available_item_sizes_locator)).count
     size_name_array = Array.new
     (1..available_item_sizes).each do |i|
       available_item_sizes_names = find(:xpath, m_ta(PRODUCT_PAGE_PREFIX + "available_size#{i}",

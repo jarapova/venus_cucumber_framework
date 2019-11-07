@@ -98,9 +98,8 @@ module VN_HamburgerMenuPage
   end
 
   def self.get_category_element(element_name, element_text)
-    find(:xpath, m_ta(HAMBURGER_MENU_PREFIX + element_name,
-                      # %{(//ul[@role='menu'])[4]//div[@amp-bind]//li//div[text()="#{element_text}"]}))
-                      %{(//div[contains(@class, 'menu-item')]/div[text()="#{element_text}"])[1]}))
+    # find(:xpath, m_ta(HAMBURGER_MENU_PREFIX + element_name,%{(//div[contains(@class, 'menu-item')]/div[text()="#{element_text}"])[1]})) #the method is used twice, analyzer works
+    find(:xpath, "(//div[contains(@class, 'menu-item')]/div[text()=\"#{element_text}\"])[1]")
   end
 
   def self.get_subcategory_element(element_name, element_text)

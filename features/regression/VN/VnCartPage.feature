@@ -11,7 +11,6 @@ Feature: This test suite declines My Bag Page functionality for Venus
 #See expected content on empty cart page =============================================================== Ready for dev
 #Offer code ============================================================================================ Ready for dev
 
-#dont work
   #Proceed to checkout 1 button works as expected
   @test
   Scenario: As user I want proceed to checkout using 1st Proceed to checkout button
@@ -27,7 +26,6 @@ Feature: This test suite declines My Bag Page functionality for Venus
     Then user click "checkout_btn_1" on cart_page
     And user can see "checkout_page_content" on checkout_page
 
-#dont work
     #Proceed to checkout 2 button works as expected
   @test
   Scenario: As user I want proceed to checkout using 2nd Proceed to checkout button

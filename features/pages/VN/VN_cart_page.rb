@@ -76,7 +76,7 @@ module VN_CartPage
   def self.click_cart_page_content(element_name_to_click)
     cart_elements = vn_get_cart_page_locators
     element_locator = cart_elements[element_name_to_click]
-    # find(:xpath, m_ta(CART_PAGE_PREFIX + element_name_to_click, element_locator)).click #need investigate why element couldn't find
+    # find(:xpath, m_ta(CART_PAGE_PREFIX + element_name_to_click, element_locator)).click
     find(:xpath, element_locator).click
     p  "I've clicked #{element_name_to_click}"
   end
@@ -92,7 +92,8 @@ module VN_CartPage
     sleep 2
     get_qty = find(:xpath, m_ta(ta_qty_locator_name + ":qty_option_selected",
                               qty_selector_locator + "//option[@selected='selected']")).text
-    sleep 1
+    sleep 2
+
     expect(element_value.to_s).to eq(get_qty.to_s)
   end
 

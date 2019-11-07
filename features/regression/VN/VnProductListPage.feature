@@ -15,8 +15,8 @@ Feature: This test suite declines Product list Page functionality for Venus
     And user select "Panties" from subcategory_filter on category_page
     And user can see subcategory_filter_button with value "Panties" on subcategory_page
 
-#not work
  #PLP page should have expected content
+  @test
   Scenario: PLP page should have expected content
     Given user is on home_page
     And user can see main_navigation_carousel on header
@@ -31,8 +31,8 @@ Feature: This test suite declines Product list Page functionality for Venus
    And user can see "lingerie_item_parameters_filter_content" on subcategory_page
     And user click close_item_parameters_filter on subcategory_page
 
-#not work
   #Category nav filter
+  @test
   Scenario:  As user I want switch between subcategories using subcategory navigation filter
     Given user is on home_page
     And user can see main_navigation_carousel on header
@@ -43,7 +43,7 @@ Feature: This test suite declines Product list Page functionality for Venus
     And user click "random_subcategory" from subcategory_filter on subcategory_page
     And user can see "random_subcategory_items_content" on subcategory_page
 
-#not work
+#not work - uses the same method several times
   #Size filter
   Scenario: User can sort items on items list page using "Size filter"
     Given user is on home_page
@@ -70,8 +70,8 @@ Feature: This test suite declines Product list Page functionality for Venus
     And user click view_results_button on filter_popup
     And user can see current_items_count become equal on subcategory_page
 
-#not work
   #Navigate to PDP
+  @test
   Scenario: As user I want to  Navigate to PDP
     Given user is on home_page
     And user can see main_navigation_carousel on header
@@ -81,8 +81,8 @@ Feature: This test suite declines Product list Page functionality for Venus
     And user click "random_item_image" on subcategory_page
     And user can see "product_page_content" on product_page
 
-#not work
   #Price with sale
+  @test
   Scenario: As user I want to see price with sale for items with sale
     Given user is on home_page
     And user can see main_navigation_carousel on header

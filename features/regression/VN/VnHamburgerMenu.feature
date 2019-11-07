@@ -19,7 +19,7 @@ Feature: This test suite defines the Hamburger Menu functionality for Venus
     And user can see "hamburger_menu_closed" on hamburger_menu
     And user can see "home_page_content" on home_page
 
-#dont work
+#don't work
 # User can navigate to subcategory page through Hamburger Menu ===================== Ready for dev =====================
   Scenario: As user I want to navigate to the category page through the Hamburger Menu
     Given user is on home_page
@@ -29,7 +29,7 @@ Feature: This test suite defines the Hamburger Menu functionality for Venus
     And user click "back_category" on hamburger_menu
     And user click "shop_by_categories_on_first_page" on hamburger_menu
     And user can see "hamburger_category_page_content" on hamburger_menu
-#    And user click "clothing_category" on hamburger_menu
+    And user click "clothing_category" on hamburger_menu
     And user click "open_app_cats" on hamburger_menu
     And user can see "hamburger_subcategory_page_content" on hamburger_menu
     And user click "dresses_subcat" on hamburger_menu

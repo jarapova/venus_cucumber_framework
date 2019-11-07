@@ -29,7 +29,7 @@ module VN_HeaderPage
 
   def self.navigate_to_category_from_carousel(carousel_element_name)
     carousel_element_text = vn_get_main_carousel_elements(carousel_element_name)
-    find(:xpath, "//a[@data-th='topNavClicked']//span[text()='#{carousel_element_text}']").click
+    find(:xpath, "//a[@data-th='topNavClicked']//span[text()=\"#{carousel_element_text}\"]").click
     # find(:xpath, m_ta(HEADER_PREFIX + carousel_element_name,
     #                 %{//a[@data-th="topNavClicked"]//span[text()="#{carousel_element_text}"]})).click
     p "I've clicked #{carousel_element_text}"
