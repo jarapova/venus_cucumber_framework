@@ -125,6 +125,7 @@ module VN_ProductPage
     view_bag_button_locator = vn_get_product_page['modal_buttons_locators']['view_bag_button']
     p "Want to click on view bag button"
     find(:xpath, m_ta(PRODUCT_PAGE_PREFIX + 'view_bag_button', view_bag_button_locator)).click
+    # find(:xpath, view_bag_button_locator).click # analizer work
     p "Clicked view bag"
     page.assert_selector(:xpath, "//div[@class='dttl mw-checkout-title' and starts-with(text(),'SHOPPING BAG')]")
   end
