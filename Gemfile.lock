@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.7.0)
+    addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
     allure-cucumber (2.10.0.beta3)
       allure-ruby-commons (= 2.10.0.beta3)
@@ -69,7 +69,7 @@ GEM
     parallel (1.18.0)
     parallel_tests (2.29.2)
       parallel
-    public_suffix (4.0.1)
+    public_suffix (4.0.6)
     rack (2.0.7)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
